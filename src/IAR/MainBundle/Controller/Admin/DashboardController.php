@@ -18,7 +18,7 @@ class DashboardController extends Controller
     /**
      * Show the Admin Dashboard
      *
-     * @Route("/", name="admin_dashboard")
+     * @Route("/")
      * @Method("GET")
      * @Template()
      */
