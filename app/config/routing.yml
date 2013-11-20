@@ -1,3 +1,8 @@
+iar_commons:
+    resource: "@IARCommonsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 iar_public:
     resource: "@IARPublicBundle/Controller/"
     type:     annotation

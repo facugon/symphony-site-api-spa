@@ -15,11 +15,13 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new IAR\MainBundle\IARMainBundle(),
             new IAR\UserBundle\IARUserBundle(),
             new IAR\PublicBundle\IARPublicBundle(),
+            new IAR\CommonsBundle\IARCommonsBundle(),
         );
 
         if ( in_array($this->getEnvironment(), array('dev', 'test')) ) {
