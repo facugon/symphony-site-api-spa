@@ -1,6 +1,6 @@
 <?php
 
-namespace Clip\MainBundle\Tests\Controller;
+namespace IAR\MainBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

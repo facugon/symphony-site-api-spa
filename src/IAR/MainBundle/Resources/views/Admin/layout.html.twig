@@ -1,11 +1,11 @@
-{% extends 'ClipMainBundle:Admin:base.html.twig' %}
+{% extends 'IARMainBundle:Admin:base.html.twig' %}
 
 {% block body -%}
 
 <div class="navbar navbar-inverse">
     <div class="navbar-inner">
         <div class="container-fluid">
-            <a class="brand" href="{{ path("iar_main_admin_dashboard_index") }}"><small><i class="icon-leaf"></i> Clip Demo Site</small> </a>
+            <a class="brand" href="{{ path("iar_main_admin_dashboard_index") }}"><small><i class="icon-leaf"></i> IAR Demo Site</small> </a>
             <ul class="nav ace-nav pull-right">
                 <li class="grey">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -130,7 +130,7 @@
 
                     <li>
                     <a href="#">
-                        <img alt="Alex's Avatar" class="msg-photo" src="{{ asset('/bundles/clipmain/avatars/avatar.png') }}" />
+                        <img alt="Alex's Avatar" class="msg-photo" src="{{ asset('/bundles/iarmain/avatars/avatar.png') }}" />
                         <span class="msg-body">
                             <span class="msg-title">
                                 <span class="blue">Alex:</span>
@@ -145,7 +145,7 @@
 
                     <li>
                     <a href="#">
-                        <img alt="Susan's Avatar" class="msg-photo" src="{{ asset('/bundles/clipmain/avatars/avatar3.png') }}" />
+                        <img alt="Susan's Avatar" class="msg-photo" src="{{ asset('/bundles/iarmain/avatars/avatar3.png') }}" />
                         <span class="msg-body">
                             <span class="msg-title">
                                 <span class="blue">Susan:</span>
@@ -160,7 +160,7 @@
 
                     <li>
                     <a href="#">
-                        <img alt="Bob's Avatar" class="msg-photo" src="{{ asset('/bundles/clipmain/avatars/avatar4.png') }}" />
+                        <img alt="Bob's Avatar" class="msg-photo" src="{{ asset('/bundles/iarmain/avatars/avatar4.png') }}" />
                         <span class="msg-body">
                             <span class="msg-title">
                                 <span class="blue">Bob:</span>
@@ -185,7 +185,7 @@
 
                 <li class="light-blue user-profile">
                 <a class="user-menu dropdown-toggle" href="#" data-toggle="dropdown">
-                    <img alt="Jason's Photo" src="{{ asset('/bundles/clipmain/avatars/user.jpg') }}" class="nav-user-photo" />
+                    <img alt="Jason's Photo" src="{{ asset('/bundles/iarmain/avatars/user.jpg') }}" class="nav-user-photo" />
                     <span id="user_info">
                         <small>Welcome,</small> Jason
                     </span>
@@ -238,13 +238,6 @@
             <a href="{{ path("iar_public_index_index") }}">
                 <i class="icon-home"></i>
                 <span>Home</span>
-            </a>
-            </li>
-
-            <li>
-            <a href="{{ path("formula") }}">
-                <i class="icon-text-width"></i>
-                <span>Formulas</span>
             </a>
             </li>
 
