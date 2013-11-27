@@ -18,6 +18,11 @@ iar_main_admin:
     type:     annotation
     prefix:   /admin/
 
+iar_user:
+    resource: "@IARUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 
