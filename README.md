@@ -1,4 +1,3 @@
-
 IAR
 ====
 
@@ -17,6 +16,10 @@ Then, use the `install` command within the root source path
 to install the dependencies:
 
     php composer.phar install
+
+Clear the cache:
+
+    php app/console cache:clear
 
 Then install the database:
 
