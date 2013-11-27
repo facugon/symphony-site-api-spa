@@ -9,7 +9,7 @@ As IAR uses [Composer][1] to manage its dependencies, the best way
 to install and mantain this project is to use it.
 
 If you don't have Composer yet, download it following the instructions on
-http://getcomposer.org/ or just run the following command:
+[http://getcomposer.org/][1] or just run the following command:
 
     curl -s http://getcomposer.org/installer | php
 
