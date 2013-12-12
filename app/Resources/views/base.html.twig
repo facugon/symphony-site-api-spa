@@ -18,8 +18,8 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
 
         {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" />
-        <link rel="stylesheet" href="{{ asset('/css/carousel.css') }}" />
+        <link rel="stylesheet" href="{{ asset('/css/lib/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('/css/lib/carousel.css') }}" />
         <link rel="stylesheet" href="{{ asset('/css/main.css') }}" />
         {% endblock %}
 
@@ -31,10 +31,10 @@
         {% endblock %}
 
         {% block javascripts %}
-        <!-- basic scripts -->
-        <script src="{{ asset('/js/jquery-1.10.2.min.js') }}"></script>
-        <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('/js/holder.js') }}"></script>
+        <!-- load at the end basic scripts -->
+        <script src="{{ asset('/js/lib/jquery-1.10.2.min.js') }}"></script>
+        <script src="{{ asset('/js/lib/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/js/lib/holder.js') }}"></script>
         {% endblock %}
     </body>
 </html>

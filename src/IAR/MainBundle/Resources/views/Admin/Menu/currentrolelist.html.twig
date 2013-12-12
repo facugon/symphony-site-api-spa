@@ -1,0 +1,29 @@
+{% block menu %}
+
+<li class="active">
+<a href="{{ path("admin_dashboard") }}">
+    <i class="icon-dashboard"></i>
+    <span>Dashboard</span>
+</a>
+</li>
+
+<li>
+<a href="{{ path("public_index") }}">
+    <i class="icon-home"></i>
+    <span>Home</span>
+</a>
+</li>
+
+<li>
+<a href="#" class="dropdown-toggle" >
+    <i class="icon-edit"></i>
+    <span>Users</span>
+    <b class="arrow icon-angle-down"></b>
+</a>
+<ul class="submenu">
+    <li><a href="{{ path('admin_user') }}"><i class="icon-double-angle-right"></i>List</a></li>
+    <li><a href="{{ path('admin_user_new') }}"><i class="icon-double-angle-right"></i>Create</a></li>
+</ul>
+</li>
+
+{% endblock menu %}

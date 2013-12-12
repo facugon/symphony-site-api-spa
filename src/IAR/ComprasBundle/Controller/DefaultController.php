@@ -1,24 +1,19 @@
 <?php
 
-namespace IAR\PublicBundle\Controller;
+namespace IAR\ComprasBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
-/**
- * Index controller.
- *
- * @Route("/")
- */
-class IndexController extends Controller
+class DefaultController extends Controller
 {
     /**
-     * @Route("/",name="public_index")
+     * @Route("/hello/{name}")
      * @Template()
      */
-    public function indexAction()
+    public function indexAction($name)
     {
-        return array();
+        return array('name' => $name);
     }
 }

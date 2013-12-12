@@ -20,7 +20,7 @@ class UserController extends Controller
     /**
      * Lists all User entities.
      *
-     * @Route("/")
+     * @Route("/", name="admin_user")
      * @Method("GET")
      * @Template()
      */

@@ -6,11 +6,11 @@
 
     <!--
     <parameters>
-        <parameter key="iar_main.example.class">IAR\MainBundle\Example</parameter>
+        <parameter key="iar_compras.example.class">IAR\ComprasBundle\Example</parameter>
     </parameters>
 
     <services>
-        <service id="iar_main.example" class="%iar_main.example.class%">
+        <service id="iar_compras.example" class="%iar_compras.example.class%">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>

@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new IAR\UserBundle\IARUserBundle(),
             new IAR\PublicBundle\IARPublicBundle(),
             new IAR\CommonsBundle\IARCommonsBundle(),
+            new IAR\ComprasBundle\IARComprasBundle(),
         );
 
         if ( in_array($this->getEnvironment(), array('dev', 'test')) ) {

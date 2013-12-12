@@ -11,19 +11,24 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 /**
  * Dashboard controller.
  *
- * @Route("/dashboard")
+ * @Route("/menu")
  */
-class DashboardController extends Controller
+class MenuController extends Controller
 {
     /**
-     * Show the Admin Dashboard
+     * Show the Admin Menu
      *
-     * @Route("/",name="admin_dashboard")
+     * @Route("/",name="admin_menu")
      * @Method("GET")
      * @Template()
      */
-    public function indexAction()
+    public function currentRoleListAction()
     {
+        /**
+         * no logic implemented so far
+         *
+         * should be read from the database
+         */
         return array();
     }
 }
