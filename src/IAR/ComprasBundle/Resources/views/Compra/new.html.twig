@@ -1,0 +1,15 @@
+{% extends 'IARMainBundle:Admin:layout.html.twig' %}
+
+{% block main -%}
+    <h1>Compra creation</h1>
+
+    {{ form(form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('admin_compra') }}">
+            Back to the list
+        </a>
+    </li>
+</ul>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'IARMainBundle:Admin:layout.html.twig' %}
+
+{% block main -%}
+    <h1>Auto list</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Modelo</th>
+                <th>Marca</th>
+                <th>Puertas</th>
+                <th>Observaciones</th>
+                <th>Combustible</th>
+                <th>Comentarios</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('admin_auto_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.modelo }}</td>
+                <td>{{ entity.marca }}</td>
+                <td>{{ entity.puertas }}</td>
+                <td>{{ entity.observaciones }}</td>
+                <td>{{ entity.combustible }}</td>
+                <td>{{ entity.comentarios }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('admin_auto_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('admin_auto_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('admin_auto_new') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
