@@ -17,7 +17,6 @@ use IAR\ComprasBundle\Form\ModelType;
  */
 class ModelController extends Controller
 {
-
     /**
      * Lists all Model entities.
      *
@@ -35,6 +34,7 @@ class ModelController extends Controller
             'entities' => $entities,
         );
     }
+
     /**
      * Creates a new Model entity.
      *
@@ -169,6 +169,7 @@ class ModelController extends Controller
 
         return $form;
     }
+
     /**
      * Edits an existing Model entity.
      *
@@ -202,6 +203,7 @@ class ModelController extends Controller
             'delete_form' => $deleteForm->createView(),
         );
     }
+
     /**
      * Deletes a Model entity.
      *

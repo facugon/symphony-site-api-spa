@@ -5,12 +5,12 @@ namespace IAR\ComprasBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Compra
+ * Purchase
  *
  * @ORM\Table()
  * @ORM\Entity
  */
-class Compra
+class Purchase
 {
     /**
      * @var integer
@@ -48,7 +48,6 @@ class Compra
      * @ORM\Column(name="usuario", type="integer")
      */
     private $usuario;
-
 
     /**
      * Get id

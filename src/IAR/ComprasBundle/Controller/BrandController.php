@@ -17,7 +17,6 @@ use IAR\ComprasBundle\Form\BrandType;
  */
 class BrandController extends Controller
 {
-
     /**
      * Lists all Brand entities.
      *

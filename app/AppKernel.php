@@ -18,11 +18,14 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
             new IAR\MainBundle\IARMainBundle(),
             new IAR\UserBundle\IARUserBundle(),
             new IAR\PublicBundle\IARPublicBundle(),
             new IAR\CommonsBundle\IARCommonsBundle(),
             new IAR\ComprasBundle\IARComprasBundle(),
+            new IAR\ComprasAPIBundle\IARComprasAPIBundle(),
         );
 
         if ( in_array($this->getEnvironment(), array('dev', 'test')) ) {

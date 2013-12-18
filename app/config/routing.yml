@@ -1,3 +1,8 @@
+iar_compras_api:
+    resource: "@IARComprasAPIBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 iar_compras:
     resource: "@IARComprasBundle/Controller/"
     type:     annotation

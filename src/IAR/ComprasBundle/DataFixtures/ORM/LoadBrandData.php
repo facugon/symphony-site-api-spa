@@ -2,11 +2,12 @@
 
 namespace IAR\ComprasBundle\DataFixtures\ORM;
 
-use Doctrine\Common\DataFixtures\FixtureInterface;
-use Doctrine\Common\Persistence\ObjectManager;
-use IAR\ComprasBundle\Entity\Brand;
+use Doctrine\Common\DataFixtures\AbstractFixture;
+use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 
-class LoadBrandData implements FixtureInterface
+use Doctrine\Common\Persistence\ObjectManager;
+
+class LoadBrandData  extends AbstractFixture implements OrderedFixtureInterface
 {
     /**
      * {@inheritDoc}

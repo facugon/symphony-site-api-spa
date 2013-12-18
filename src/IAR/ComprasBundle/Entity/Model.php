@@ -29,10 +29,9 @@ class Model
     private $name;
 
     /**
-     * @var \IAR\ComprasBundle\Entity\Brand $brand
+     * @var integer
      *
-     * @ORM\ManyToOne(targetEntity="Brand", inversedBy="models")
-     * @ORM\JoinColumn(name="brand_id", referencedColumnName="id", nullable=false)
+     * @ORM\Column(name="brand_id", type="integer")
      */
     private $brand;
 
@@ -106,26 +105,26 @@ class Model
     }
 
     /**
-     * Set brandId
+     * Set brand
      *
-     * @param integer $brandId
+     * @param integer $brand
      * @return Model
      */
-    public function setBrandId($brandId)
+    public function setBrand($brand)
     {
-        $this->brandId = $brandId;
+        $this->brand = $brand;
     
         return $this;
     }
 
     /**
-     * Get brandId
+     * Get brand
      *
      * @return integer 
      */
-    public function getBrandId()
+    public function getBrand()
     {
-        return $this->brandId;
+        return $this->brand;
     }
 
     /**
@@ -251,28 +250,5 @@ class Model
     public function getDisabled()
     {
         return $this->disabled;
-    }
-
-    /**
-     * Set brand
-     *
-     * @param \IAR\ComprasBundle\Entity\Brand $brand
-     * @return Model
-     */
-    public function setBrand(\IAR\ComprasBundle\Entity\Brand $brand)
-    {
-        $this->brand = $brand;
-    
-        return $this;
-    }
-
-    /**
-     * Get brand
-     *
-     * @return \IAR\ComprasBundle\Entity\Brand 
-     */
-    public function getBrand()
-    {
-        return $this->brand;
     }
 }
