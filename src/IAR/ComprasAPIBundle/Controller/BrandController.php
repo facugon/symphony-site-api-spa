@@ -4,10 +4,11 @@ namespace IAR\ComprasAPIBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use IAR\ComprasBundle\Entity\Brand;
 
 use FOS\RestBundle\Controller\Annotations as Rest;
 use FOS\RestBundle\Controller\FOSRestController;
+
+use IAR\ComprasBundle\Entity\Brand;
 
 /**
  * Brand controller.

@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AllBrands>
+    <Brand id="1">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2</Value>
+                <Text>145</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>3</Value>
+                <Text>146</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7557</Value>
+                <Text>147</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54747</Value>
+                <Text>148</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>680</Value>
+                <Text>155</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>4</Value>
+                <Text>156</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25821</Value>
+                <Text>159</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>681</Value>
+                <Text>164</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5</Value>
+                <Text>166</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1164</Value>
+                <Text>33</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1166</Value>
+                <Text>75</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26456</Value>
+                <Text>ALFASUD</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7622</Value>
+                <Text>ALFETTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13483</Value>
+                <Text>BRERA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1168</Value>
+                <Text>GIULIETTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>14597</Value>
+                <Text>GT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>6</Value>
+                <Text>GTV</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29337</Value>
+                <Text>MITO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26840</Value>
+                <Text>RIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7</Value>
+                <Text>SPIDER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="10">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>51</Value>
+                <Text>300</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29448</Value>
+                <Text>C</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12740</Value>
+                <Text>CIRRUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10973</Value>
+                <Text>CONCORDE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2257</Value>
+                <Text>CROSSFIRE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26672</Value>
+                <Text>INTREPID</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1178</Value>
+                <Text>LE BARON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>48</Value>
+                <Text>NEON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>52</Value>
+                <Text>PT CRUISER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1027</Value>
+                <Text>SEBRING</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13008</Value>
+                <Text>SHADOW</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10977</Value>
+                <Text>SPIRIT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>49</Value>
+                <Text>STRATUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22702</Value>
+                <Text>TALON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1028</Value>
+                <Text>VIPER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1000">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5000</Value>
+                <Text>INTEGRA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>6932</Value>
+                <Text>LEGEND</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1011">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22734</Value>
+                <Text>1310</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>11016</Value>
+                <Text>BERLINA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54669</Value>
+                <Text>OLT CIT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>11023</Value>
+                <Text>TLX</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1025">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/" />
+    </Brand>
+    <Brand id="1037">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22533</Value>
+                <Text>MONTERREY</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1042">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27531</Value>
+                <Text>NAFTA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1048">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10607</Value>
+                <Text>SILVER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="11">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26288</Value>
+                <Text>11</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1659</Value>
+                <Text>2 CV</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22706</Value>
+                <Text>3 CV</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>694</Value>
+                <Text>AX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>695</Value>
+                <Text>BX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1432</Value>
+                <Text>C3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54625</Value>
+                <Text>C3 AIRCROSS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54626</Value>
+                <Text>C3 PICASSO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7705</Value>
+                <Text>C4</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54751</Value>
+                <Text>C4 AIRCROSS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54750</Value>
+                <Text>C4 LOUNGE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54627</Value>
+                <Text>C4 PICASSO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1431</Value>
+                <Text>C5</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54336</Value>
+                <Text>C6</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>696</Value>
+                <Text>CX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54449</Value>
+                <Text>DS3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54615</Value>
+                <Text>DS4</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1662</Value>
+                <Text>DYANE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7708</Value>
+                <Text>GSA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26663</Value>
+                <Text>IES</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1422</Value>
+                <Text>MEHARI</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54708</Value>
+                <Text>OLTCIT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>55</Value>
+                <Text>SAXO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1468</Value>
+                <Text>VISA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>57</Value>
+                <Text>XANTIA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>56</Value>
+                <Text>XSARA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1029</Value>
+                <Text>XSARA PICASSO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1051</Value>
+                <Text>ZX</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="111">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26459</Value>
+                <Text>ALLEGRO</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="112">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26928</Value>
+                <Text>TRANSPORT</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="12">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54730</Value>
+                <Text> ESPERO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5078</Value>
+                <Text>CIELO </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>61</Value>
+                <Text>LANOS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>64</Value>
+                <Text>LEGANZA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>60</Value>
+                <Text>MATIZ</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>63</Value>
+                <Text>NUBIRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5085</Value>
+                <Text>RACER </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1030</Value>
+                <Text>TACUMA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5086</Value>
+                <Text>TICO </Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="13">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1181</Value>
+                <Text>APPLAUSE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1180</Value>
+                <Text>CHARADE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22753</Value>
+                <Text>CHARMANT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7299</Value>
+                <Text>CUORE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26771</Value>
+                <Text>MIRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26774</Value>
+                <Text>MOVE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10629</Value>
+                <Text>SIRION</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1323">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27641</Value>
+                <Text>57</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1341">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26361</Value>
+                <Text>2119</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10690</Value>
+                <Text>2141</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22540</Value>
+                <Text>2335</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="14">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22833</Value>
+                <Text>1100</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26296</Value>
+                <Text>125</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26298</Value>
+                <Text>128</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13047</Value>
+                <Text>147</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26311</Value>
+                <Text>1500</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26317</Value>
+                <Text>1600</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26099</Value>
+                <Text>500</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26100</Value>
+                <Text>600</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>73</Value>
+                <Text>BARCHETTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>70</Value>
+                <Text>BRAVO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22809</Value>
+                <Text>BRIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26103</Value>
+                <Text>DUNA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54698</Value>
+                <Text>GRAND SIENA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7731</Value>
+                <Text>IDEA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>28221</Value>
+                <Text>LINEA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>72</Value>
+                <Text>MAREA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>68</Value>
+                <Text>PALIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>66</Value>
+                <Text>PANDA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5111</Value>
+                <Text>PREMIO </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>69</Value>
+                <Text>PUNTO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22824</Value>
+                <Text>REGATTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5114</Value>
+                <Text>SIENA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5115</Value>
+                <Text>SPAZIO </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1481</Value>
+                <Text>STILO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>704</Value>
+                <Text>TEMPRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>703</Value>
+                <Text>TIPO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>705</Value>
+                <Text>UNO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54629</Value>
+                <Text>UNO EVO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22832</Value>
+                <Text>VIVACE</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="146">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27594</Value>
+                <Text>246</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27596</Value>
+                <Text>308</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5097</Value>
+                <Text>328 </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1668</Value>
+                <Text>348</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1191</Value>
+                <Text>355</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1032</Value>
+                <Text>360</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1669</Value>
+                <Text>365</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26409</Value>
+                <Text>430</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1670</Value>
+                <Text>456</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1671</Value>
+                <Text>512</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1672</Value>
+                <Text>550</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12761</Value>
+                <Text>575</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54337</Value>
+                <Text>599</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12760</Value>
+                <Text>612</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54338</Value>
+                <Text>CALIFORNIA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54628</Value>
+                <Text>SUPERAMERICA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26923</Value>
+                <Text>TESTARROSA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="147">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1605</Value>
+                <Text>SEVEN</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="15">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>81</Value>
+                <Text>ESCORT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26622</Value>
+                <Text>FAIRLINE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5131</Value>
+                <Text>FALCON </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>78</Value>
+                <Text>FIESTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54630</Value>
+                <Text>FIESTA KINETIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>82</Value>
+                <Text>FOCUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>84</Value>
+                <Text>GALAXY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1378</Value>
+                <Text>GRANADA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>77</Value>
+                <Text>KA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5140</Value>
+                <Text>LASER </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5144</Value>
+                <Text>MERCURY </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>83</Value>
+                <Text>MONDEO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5145</Value>
+                <Text>MUSTANG </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1116</Value>
+                <Text>ORION</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>710</Value>
+                <Text>SCORPIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1054</Value>
+                <Text>SIERRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22487</Value>
+                <Text>S-MAX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22879</Value>
+                <Text>TAUNUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54369</Value>
+                <Text>TAURUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5150</Value>
+                <Text>THUNDERBIRD </Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="153">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1206</Value>
+                <Text>2107</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23000</Value>
+                <Text>AFALINA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7391</Value>
+                <Text>LAIKA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54341</Value>
+                <Text>SAMARA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1589">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12259</Value>
+                <Text>1102</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1702">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26524</Value>
+                <Text>CHAMP</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="173">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27553</Value>
+                <Text>1500</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27558</Value>
+                <Text>CORONADO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13110</Value>
+                <Text>POLARA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1186</Value>
+                <Text>VIPER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1776">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26592</Value>
+                <Text>DKW</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1792">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26392</Value>
+                <Text>280</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26710</Value>
+                <Text>LAUREL</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1797">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27582</Value>
+                <Text>ANTIQUE</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="18">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>101</Value>
+                <Text>ACCENT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>100</Value>
+                <Text>ATOS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1035</Value>
+                <Text>ATOS PRIME</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1678</Value>
+                <Text>COUPE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1255</Value>
+                <Text>ELANTRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5172</Value>
+                <Text>EXCEL </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54383</Value>
+                <Text>GENESIS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>28550</Value>
+                <Text>I10</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>28164</Value>
+                <Text>I30</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1482</Value>
+                <Text>MATRIX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1201</Value>
+                <Text>PONY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>103</Value>
+                <Text>SONATA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54624</Value>
+                <Text>VELOSTER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54339</Value>
+                <Text>VERACRUZ</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1802">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/" />
+    </Brand>
+    <Brand id="1812">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22931</Value>
+                <Text>RAMBLER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1839">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26752</Value>
+                <Text>MINI</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1843">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26831</Value>
+                <Text>PRINZ</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1847">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27532</Value>
+                <Text>COUPE CABRIOLET</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1853">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26408</Value>
+                <Text>420</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26648</Value>
+                <Text>GLI</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1854">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26540</Value>
+                <Text>CLASSIC</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1866">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26312</Value>
+                <Text>1500</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1949">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29439</Value>
+                <Text>FACE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54729</Value>
+                <Text>FULWIN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25926</Value>
+                <Text>QQ</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54636</Value>
+                <Text>SKIN</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="1980">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26866</Value>
+                <Text>SILVER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="20">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26585</Value>
+                <Text>DAIMLER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26870</Value>
+                <Text>SOVEREING</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>109</Value>
+                <Text>S-TYPE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54340</Value>
+                <Text>XF</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1204</Value>
+                <Text>XJ</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2120</Value>
+                <Text>X-TYPE</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="22">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22982</Value>
+                <Text>AVELLA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7779</Value>
+                <Text>CERATO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7783</Value>
+                <Text>MAGENTIS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27602</Value>
+                <Text>NEW CARENS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7784</Value>
+                <Text>OPIRUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2341</Value>
+                <Text>PICANTO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>119</Value>
+                <Text>PRIDE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1037</Value>
+                <Text>RIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29283</Value>
+                <Text>RONDO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>120</Value>
+                <Text>SEPHIA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29281</Value>
+                <Text>SOUL</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="222">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1500</Value>
+                <Text>COOPER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="23">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26476</Value>
+                <Text>BETA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>715</Value>
+                <Text>DELTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29385</Value>
+                <Text>PRISMA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="236">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10801</Value>
+                <Text>CENTURY</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="240">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26933</Value>
+                <Text>V10</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="243">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1690</Value>
+                <Text>DIABLO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>8952</Value>
+                <Text>GALLARDO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>8953</Value>
+                <Text>MURCIELAGO</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="245">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5206</Value>
+                <Text>TOWNCAR</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="25">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>137</Value>
+                <Text>GS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>136</Value>
+                <Text>IS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>138</Value>
+                <Text>LS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>14964</Value>
+                <Text>SC</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="256">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7585</Value>
+                <Text>VALIANT</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="26">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13518</Value>
+                <Text>COUPE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54660</Value>
+                <Text>GRAN TURISMO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>140</Value>
+                <Text>QUATTROPORTE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1702</Value>
+                <Text>SPYDER</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="27">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>717</Value>
+                <Text>121</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>142</Value>
+                <Text>323</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>144</Value>
+                <Text>626</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1221</Value>
+                <Text>929</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5218</Value>
+                <Text>MIATA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>718</Value>
+                <Text>MX-3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7403</Value>
+                <Text>MX-5</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1223</Value>
+                <Text>MX-6</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27644</Value>
+                <Text>MX-7</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1224</Value>
+                <Text>RX-7</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="28">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54631</Value>
+                <Text>AMG</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7853</Value>
+                <Text>CLASE A</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23041</Value>
+                <Text>CLASE B</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23042</Value>
+                <Text>CLASE C</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25671</Value>
+                <Text>CLASE CL</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54342</Value>
+                <Text>CLASE CLC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26534</Value>
+                <Text>CLASE CLK</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7868</Value>
+                <Text>CLASE CLS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23330</Value>
+                <Text>CLASE E</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26030</Value>
+                <Text>CLASE G</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26538</Value>
+                <Text>CLASE ML</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12609</Value>
+                <Text>CLASE S</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23044</Value>
+                <Text>CLASE SL</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>153</Value>
+                <Text>CLASE SLK</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="29">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>159</Value>
+                <Text>MGF</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="29283">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54348</Value>
+                <Text>CHAIRMAN</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="29309">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54600</Value>
+                <Text>TERRA GATOR</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="30">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27648</Value>
+                <Text>300 GT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26221</Value>
+                <Text>3000GT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1228</Value>
+                <Text>COLT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>720</Value>
+                <Text>ECLIPSE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25655</Value>
+                <Text>EXCEED</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>162</Value>
+                <Text>GALANT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5289</Value>
+                <Text>LANCER </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23093</Value>
+                <Text>PROTON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23094</Value>
+                <Text>SAPPORO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5295</Value>
+                <Text>SIGMA </Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="31">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>174</Value>
+                <Text>200</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5300</Value>
+                <Text>240 </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>722</Value>
+                <Text>300</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5302</Value>
+                <Text>350 </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29315</Value>
+                <Text>370Z</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1720</Value>
+                <Text>BLUEBIRD</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54632</Value>
+                <Text>MARCH</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>173</Value>
+                <Text>MAXIMA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>11998</Value>
+                <Text>NX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26802</Value>
+                <Text>NX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5305</Value>
+                <Text>SENTRA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>175</Value>
+                <Text>SERENA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29223</Value>
+                <Text>TEANA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26984</Value>
+                <Text>TIIDA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="32">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>183</Value>
+                <Text>ASTRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23127</Value>
+                <Text>K-180</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>185</Value>
+                <Text>OMEGA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>976</Value>
+                <Text>REKORD</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>184</Value>
+                <Text>VECTRA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="33">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>188</Value>
+                <Text>106</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>724</Value>
+                <Text>205</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>189</Value>
+                <Text>206</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22470</Value>
+                <Text>207</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54703</Value>
+                <Text>208</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29474</Value>
+                <Text>3008</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>190</Value>
+                <Text>306</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1233</Value>
+                <Text>307</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>28226</Value>
+                <Text>308</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23143</Value>
+                <Text>403</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>13033</Value>
+                <Text>404</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>726</Value>
+                <Text>405</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>191</Value>
+                <Text>406</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2328</Value>
+                <Text>407</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54382</Value>
+                <Text>408</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5324</Value>
+                <Text>504 </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1112</Value>
+                <Text>505</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54614</Value>
+                <Text>508</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>8003</Value>
+                <Text>604</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>727</Value>
+                <Text>605</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1018</Value>
+                <Text>607</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>192</Value>
+                <Text>806</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2222</Value>
+                <Text>807</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54428</Value>
+                <Text>RCZ</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="34">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>194</Value>
+                <Text>911</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1235</Value>
+                <Text>968</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>193</Value>
+                <Text>BOXSTER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2352</Value>
+                <Text>CAYENNE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54344</Value>
+                <Text>CAYMAN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54345</Value>
+                <Text>PANAMERA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="35">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1020</Value>
+                <Text>11</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1140</Value>
+                <Text>12</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1418</Value>
+                <Text>18</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>732</Value>
+                <Text>19</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>733</Value>
+                <Text>21</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23199</Value>
+                <Text>30</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1606</Value>
+                <Text>4</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>731</Value>
+                <Text>5</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1734</Value>
+                <Text>6</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1414</Value>
+                <Text>9</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>196</Value>
+                <Text>CLIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26541</Value>
+                <Text>CLIO 2</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54700</Value>
+                <Text>CLIO MIO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23173</Value>
+                <Text>DAUPHINE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29509</Value>
+                <Text>FLUENCE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1735</Value>
+                <Text>FUEGO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23177</Value>
+                <Text>GORDINI</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>199</Value>
+                <Text>LAGUNA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54404</Value>
+                <Text>LATITUDE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25193</Value>
+                <Text>LOGAN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>197</Value>
+                <Text>MEGANE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26748</Value>
+                <Text>MEGANE 2</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54393</Value>
+                <Text>MEGANE 3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>200</Value>
+                <Text>SAFRANE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>28542</Value>
+                <Text>SANDERO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54633</Value>
+                <Text>SANDERO STEPWAY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2056</Value>
+                <Text>SCENIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5361</Value>
+                <Text>SYMBOL </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23191</Value>
+                <Text>TORINO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>195</Value>
+                <Text>TWINGO</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="37">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1343</Value>
+                <Text>200</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1745</Value>
+                <Text>214</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1746</Value>
+                <Text>216</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>208</Value>
+                <Text>25</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>738</Value>
+                <Text>400</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1433</Value>
+                <Text>414</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1748</Value>
+                <Text>416</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1750</Value>
+                <Text>420</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>209</Value>
+                <Text>45</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1344</Value>
+                <Text>600</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1752</Value>
+                <Text>620</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>210</Value>
+                <Text>75</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1754</Value>
+                <Text>820</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="38">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54347</Value>
+                <Text>9000</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26718</Value>
+                <Text>LÍNEA 9.3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26719</Value>
+                <Text>LÍNEA 9.5</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="39">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2329</Value>
+                <Text>ALTEA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1762</Value>
+                <Text>CORDOBA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>214</Value>
+                <Text>IBIZA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1765</Value>
+                <Text>LEON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>218</Value>
+                <Text>TOLEDO</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="4">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1072</Value>
+                <Text>100</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1170</Value>
+                <Text>200</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>683</Value>
+                <Text>80</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54489</Value>
+                <Text>A1</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>10</Value>
+                <Text>A3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12</Value>
+                <Text>A4</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27465</Value>
+                <Text>A5</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>18</Value>
+                <Text>A6</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54490</Value>
+                <Text>A7</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>21</Value>
+                <Text>A8</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1259</Value>
+                <Text>ALLROAD</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54332</Value>
+                <Text>R8</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>16</Value>
+                <Text>TT</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="40">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>220</Value>
+                <Text>FELICIA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="41">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26634</Value>
+                <Text>FORTWO</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="43">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>228</Value>
+                <Text>IMPREZA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1245</Value>
+                <Text>JUSTY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>229</Value>
+                <Text>LEGACY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>230</Value>
+                <Text>OUTBACK</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="44">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>234</Value>
+                <Text>BALENO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26638</Value>
+                <Text>FUN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>233</Value>
+                <Text>SWIFT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26950</Value>
+                <Text>WAGON</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26957</Value>
+                <Text>X90</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54705</Value>
+                <Text>X-90</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="46">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54749</Value>
+                <Text>86</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>247</Value>
+                <Text>AVENSIS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>744</Value>
+                <Text>CAMRY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>742</Value>
+                <Text>CARINA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>248</Value>
+                <Text>CELICA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>246</Value>
+                <Text>COROLLA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7514</Value>
+                <Text>CORONA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12278</Value>
+                <Text>CRESSIDA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5390</Value>
+                <Text>CROWN </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54723</Value>
+                <Text>ETIOS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29471</Value>
+                <Text>FIELDER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1772</Value>
+                <Text>LEXUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1047</Value>
+                <Text>PRIUS</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54753</Value>
+                <Text>S</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1250</Value>
+                <Text>SUPRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5400</Value>
+                <Text>TERCEL </Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="47">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23287</Value>
+                <Text>1500</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>261</Value>
+                <Text>BORA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23260</Value>
+                <Text>CARAT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26088</Value>
+                <Text>CROSSFOX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1066</Value>
+                <Text>ESCARABAJO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>15471</Value>
+                <Text>FOX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23266</Value>
+                <Text>GACEL</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>6931</Value>
+                <Text>GOL</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54634</Value>
+                <Text>GOL TREND</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>260</Value>
+                <Text>GOLF</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>259</Value>
+                <Text>NEW BEETLE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5412</Value>
+                <Text>PARATI </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>262</Value>
+                <Text>PASSAT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7537</Value>
+                <Text>POINTER</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>258</Value>
+                <Text>POLO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7539</Value>
+                <Text>QUANTUM</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23275</Value>
+                <Text>RABBIT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>15489</Value>
+                <Text>SANTANA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1420</Value>
+                <Text>SCIROCCO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23279</Value>
+                <Text>SENDA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>263</Value>
+                <Text>SHARAN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>27707</Value>
+                <Text>SURAN</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>746</Value>
+                <Text>VENTO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7544</Value>
+                <Text>VOYAGE</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="48">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2224</Value>
+                <Text>240</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1781</Value>
+                <Text>244</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23303</Value>
+                <Text>343</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>757</Value>
+                <Text>740</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>8184</Value>
+                <Text>760</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>756</Value>
+                <Text>850</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>758</Value>
+                <Text>940</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26446</Value>
+                <Text>945</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>25998</Value>
+                <Text>C30</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>750</Value>
+                <Text>C70</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>264</Value>
+                <Text>S40</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1050</Value>
+                <Text>S60</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>748</Value>
+                <Text>S70</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>751</Value>
+                <Text>S80</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>747</Value>
+                <Text>V40</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2318</Value>
+                <Text>V50</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>749</Value>
+                <Text>V70</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="6">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26653</Value>
+                <Text>GT</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="69">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1593</Value>
+                <Text>ACCORD</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>11332</Value>
+                <Text>ACURA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1893</Value>
+                <Text>CITY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1587</Value>
+                <Text>CIVIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1590</Value>
+                <Text>CRX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5161</Value>
+                <Text>FIT </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5162</Value>
+                <Text>INTEGRA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1594</Value>
+                <Text>LEGEND</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1592</Value>
+                <Text>PRELUDE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1588</Value>
+                <Text>STREAM</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="7">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>12685</Value>
+                <Text>SERIE 1</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1148</Value>
+                <Text>SERIE 3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1331</Value>
+                <Text>SERIE 5</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1380</Value>
+                <Text>SERIE 6</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1332</Value>
+                <Text>SERIE 7</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1333</Value>
+                <Text>SERIE 8</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26186</Value>
+                <Text>Z1</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1337</Value>
+                <Text>Z3</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>2151</Value>
+                <Text>Z4</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1338</Value>
+                <Text>Z8</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="8">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>1649</Value>
+                <Text>FLEETWOOD</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+    <Brand id="9">
+        <ArrayOfDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26405</Value>
+                <Text>400</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>29319</Value>
+                <Text>AGILE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5049</Value>
+                <Text>ASTRA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22637</Value>
+                <Text>ASTRA II</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>14712</Value>
+                <Text>AVEO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26116</Value>
+                <Text>CAMARO</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5053</Value>
+                <Text>CAVALIER </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54415</Value>
+                <Text>CELTA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7248</Value>
+                <Text>CHEVETTE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>26120</Value>
+                <Text>CHEVY</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54334</Value>
+                <Text>CLASSIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54715</Value>
+                <Text>COBALT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7249</Value>
+                <Text>CORSA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22654</Value>
+                <Text>CORSA CLASSIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>22655</Value>
+                <Text>CORSA II</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5057</Value>
+                <Text>CORSICA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>44</Value>
+                <Text>CORVETTE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54335</Value>
+                <Text>CRUZE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7252</Value>
+                <Text>IPANEMA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7253</Value>
+                <Text>KADETT</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7256</Value>
+                <Text>MERIVA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>5066</Value>
+                <Text>MONZA </Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54564</Value>
+                <Text>OLDSMOBILE</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7259</Value>
+                <Text>OMEGA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54716</Value>
+                <Text>ONIX</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54493</Value>
+                <Text>PRISMA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>54612</Value>
+                <Text>SONIC</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>23364</Value>
+                <Text>SPARK</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7264</Value>
+                <Text>TIGRA</Text>
+            </Dictionary>
+            <Dictionary xsi:type="ImplementedDictionary">
+                <Value>7267</Value>
+                <Text>VECTRA</Text>
+            </Dictionary>
+        </ArrayOfDictionary>
+    </Brand>
+</AllBrands>

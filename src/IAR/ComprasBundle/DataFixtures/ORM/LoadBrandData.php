@@ -24,7 +24,7 @@ class LoadBrandData  extends AbstractFixture implements OrderedFixtureInterface
 
     private function loadStmt()
     {
-        return include 'data/brands.sql.php';
+        return include 'data/brands_autofoco.sql.php';
     }
 
     /**

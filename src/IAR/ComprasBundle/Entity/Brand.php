@@ -64,16 +64,9 @@ class Brand
     private $logoSizeY;
 
     /**
-     * This is a One-To-Many association, but it needs to be implemented as below.
-     * One-To-Many with foreign keys are not supported by doctrine2 yet
-     *
      * @var ArrayCollection $models
      *
-     * @ORM\ManyToMany(targetEntity="Model")
-     * @ORM\JoinTable(name="OneToMany_Brands_Models",
-     *      joinColumns={@ORM\JoinColumn(name="brand_id", referencedColumnName="id")},
-     *      inverseJoinColumns={@ORM\JoinColumn(name="model_id", referencedColumnName="id")}
-     *      )
+     * @ORM\OneToMany(targetEntity="Model", mappedBy="brand")
      */
     private $models;
 

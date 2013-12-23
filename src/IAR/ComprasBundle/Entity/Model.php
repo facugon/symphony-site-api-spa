@@ -29,9 +29,10 @@ class Model
     private $name;
 
     /**
-     * @var integer
+     * @var Brand
      *
-     * @ORM\Column(name="brand_id", type="integer")
+     * @ORM\ManyToOne(targetEntity="Brand")
+     * @ORM\JoinColumn(name="brand_id", referencedColumnName="id", nullable=false)
      */
     private $brand;
 
