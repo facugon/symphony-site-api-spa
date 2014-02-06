@@ -1,19 +1,37 @@
 {% extends '::layout.html.twig' %}
-        
+
 {% block main %}
 
 <link rel="stylesheet" href="{{ asset('/bundles/iarcompras/css/solicitud.css') }}" />
 
-    <div class="row">
+    <div id="step1" class="row">
         <div class="step col-md-3 col-md-offset-1">
-            <label>Paso 1</label>
+            <h2>Paso 1</h2>
+            <div>
+                <h4>Marca</h4>
+                <select class="form-control" id="brand" name="iar_comprasbundle_solicitud[brand]">
+                    <option value="0"></option>
+                    {% for brand in brands %}
+                    <option value="{{ brand.id }}">{{ brand.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>
+                <h4>Modelo</h4>
+                <select class="form-control" id="model" name="iar_comprasbundle_solicitud[model]">
+                    <option value="0"></option>
+                </select>
+            </div>
         </div>
         <div class="step col-md-3">
-            <label>Paso 2</label>
+            <h2>Paso 2</h2>
         </div>
         <div class="step col-md-3">
-            <label>Paso 3</label>
+            <h2>Paso 3</h2>
         </div>
     </div>
+
+    <script src="{{ asset('/bundles/iarcompras/js/solicitud.js') }}"></script>
+    <script data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript" src="{{ asset('js/lib/require.js') }}"></script>
 
 {% endblock main %}
