@@ -9,7 +9,7 @@
             <h2>Paso 1</h2>
             <div>
                 <h4>Marca</h4>
-                <select class="form-control" id="brand" name="iar_comprasbundle_solicitud[brand]">
+                <select class="controller-action" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
                     <option value="0"></option>
                     {% for brand in brands %}
                     <option value="{{ brand.id }}">{{ brand.name }}</option>
@@ -18,7 +18,7 @@
             </div>
             <div>
                 <h4>Modelo</h4>
-                <select class="form-control" id="model" name="iar_comprasbundle_solicitud[model]">
+                <select class="controller-action" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
                     <option value="0"></option>
                 </select>
             </div>
@@ -31,7 +31,6 @@
         </div>
     </div>
 
-    <script src="{{ asset('/bundles/iarcompras/js/solicitud.js') }}"></script>
     <script data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript" src="{{ asset('js/lib/require.js') }}"></script>
 
 {% endblock main %}
