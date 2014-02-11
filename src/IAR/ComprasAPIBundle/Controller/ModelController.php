@@ -6,7 +6,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 use IAR\ComprasBundle\Entity\Model;
-use FOS\RestBundle\Controller\Annotations as Rest;
+use IAR\CommonsBundle\Model\JSONRPC2\Response as JSONResponse;
+
 use FOS\RestBundle\Controller\FOSRestController;
 
 /**
@@ -21,7 +22,6 @@ class ModelController extends FOSRestController
      *
      * @Route("/", name="api_model_getall")
      * @Method("GET")
-     * @Rest\View
      */
     public function getallAction()
     {
@@ -29,7 +29,8 @@ class ModelController extends FOSRestController
 
         $entities = $em->getRepository('IARComprasBundle:Model')->findAll();
 
-        return array( 'models' => $entities );
+        $response = new JSONResponse;
+        return $response->result( array('models' => $entities) );
     }
 
     /**
@@ -37,7 +38,6 @@ class ModelController extends FOSRestController
      *
      * @Route("/{id}", name="api_model_get")
      * @Method("GET")
-     * @Rest\View
      */
     public function getAction($id)
     {
@@ -49,6 +49,7 @@ class ModelController extends FOSRestController
             throw $this->createNotFoundException('Model not found');
         }
 
-        return array( 'model' => $entity );
+        $response = new JSONResponse;
+        return $response->result( array('model' => $entity) );
     }
 }

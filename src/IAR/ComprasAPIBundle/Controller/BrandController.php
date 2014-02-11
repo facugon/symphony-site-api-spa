@@ -5,10 +5,10 @@ namespace IAR\ComprasAPIBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
-use FOS\RestBundle\Controller\Annotations as Rest;
-use FOS\RestBundle\Controller\FOSRestController;
-
 use IAR\ComprasBundle\Entity\Brand;
+use IAR\CommonsBundle\Model\JSONRPC2\Response as JSONResponse;
+
+use FOS\RestBundle\Controller\FOSRestController;
 
 /**
  * Brand controller.
@@ -22,7 +22,6 @@ class BrandController extends FOSRestController
      *
      * @Route("/", name="api_brand_getall")
      * @Method("GET")
-     * @Rest\View
      */
     public function getallAction()
     {
@@ -30,7 +29,8 @@ class BrandController extends FOSRestController
 
         $entities = $em->getRepository('IARComprasBundle:Brand')->findAll();
 
-        return array('brands' => $entities);
+        $response = new JSONResponse;
+        return $response->result( array('brands' => $entities) );
     }
 
     /**
@@ -38,7 +38,6 @@ class BrandController extends FOSRestController
      *
      * @Route("/{id}", name="api_brand_get")
      * @Method("GET")
-     * @Rest\View
      */
     public function getAction($id)
     {
@@ -50,6 +49,7 @@ class BrandController extends FOSRestController
             throw $this->createNotFoundException('Brand not found.');
         }
 
-        return array('brand' => $entity);
+        $response = new JSONResponse;
+        return $response->result( array('brand' => $entity) );
     }
 }

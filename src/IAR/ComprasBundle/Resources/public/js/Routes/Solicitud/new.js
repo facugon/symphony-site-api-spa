@@ -8,20 +8,22 @@ require.config({
     // never includes a ".js" extension since
     // the paths config could be for a directory.
     paths: {
-        Model       : '/bundles/compras/js/Models',
-        Controller  : '/bundles/compras/js/Controllers',
-        View        : '/bundles/compras/js/Views',
-        Template    : '/bundles/compras/templates'
+        Controller  : '/bundles/iarcompras/js/Controllers',
+        View        : '/bundles/iarcompras/js/Views',
+        Entity      : '/bundles/iarcompras/js/Entities',
+        Service     : '/bundles/iarcompras/js/Services',
+        template    : '/bundles/iarcompras/templates',
+        iar         : '/js/iar'
     }
 });
 
 // Start the main app logic.
-require(['jquery','Controller/Solicitud'],
-    function($, SolicitudController) {
+require(['jquery','Controller/Solicitud'], function($, SolicitudController) {
+        var solicitud = new SolicitudController();
 
         $(function(){
-            $("select.controller-action#solicitud-brand").click(function(){
-                SolicitudController.marcaselectAction();
+            $("select.controller-action#solicitud-brand").click(function() {
+                solicitud.brandSelectAction(this);
             });
         });
     }

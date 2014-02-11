@@ -4,33 +4,33 @@
 
 <link rel="stylesheet" href="{{ asset('/bundles/iarcompras/css/solicitud.css') }}" />
 
-    <div id="step1" class="row">
-        <div class="step col-md-3 col-md-offset-1">
-            <h2>Paso 1</h2>
-            <div>
-                <h4>Marca</h4>
-                <select class="controller-action" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
-                    <option value="0"></option>
-                    {% for brand in brands %}
-                    <option value="{{ brand.id }}">{{ brand.name }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            <div>
-                <h4>Modelo</h4>
-                <select class="controller-action" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
-                    <option value="0"></option>
-                </select>
-            </div>
+<div class="row">
+    <div id="step-1" class="step col-md-3 col-md-offset-1">
+        <h2>Paso 1</h2>
+        <div>
+            <h4>Marca</h4>
+            <select class="form-control controller-action" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
+                <option value="0"></option>
+                {% for brand in brands %}
+                <option value="{{ brand.id }}">{{ brand.name }}</option>
+                {% endfor %}
+            </select>
         </div>
-        <div class="step col-md-3">
-            <h2>Paso 2</h2>
-        </div>
-        <div class="step col-md-3">
-            <h2>Paso 3</h2>
+        <div>
+            <h4>Modelo</h4>
+            <select class="form-control controller-action" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
+                <option value="0"></option>
+            </select>
         </div>
     </div>
+    <div id="step-2" class="step col-md-3">
+        <h2>Paso 2</h2>
+    </div>
+    <div id="step-3" class="step col-md-3">
+        <h2>Paso 3</h2>
+    </div>
+</div>
 
-    <script data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript" src="{{ asset('js/lib/require.js') }}"></script>
+<script src="{{ asset('js/lib/require.js') }}" data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript"></script>
 
 {% endblock main %}
