@@ -1,32 +1,40 @@
 
-define("Model/Solicitud", [], function() {
-    var Solicitud = function() {
-        var brand = null;
-        var model = null;
+define("Entity/Solicitud",['underscore','iar/Entity'],function(_,Entity) {
 
-        this.getBrand = function() {
-            return brand;
-        }
+    var base_attributes = {
+        'brand':null,
+        'model':null
+    }
 
-        this.getModel = function() {
-            return model;
-        }
+    function SolicitudEntity(id,attr)
+    {
+        if( ! attr || typeof attr == "undefined" )
+            attr = base_attributes;
+        if( ! id || typeof id == "undefined" )
+            id = null;
 
-        this.setBrand = function(id) {
-            brand = id;
+        Entity.call(this,id,attr);
+
+        return this;
+    };
+
+    SolicitudEntity.prototype = {
+        getBrand : function() {
+            return this._attributes.brand;
+        },
+        getModel : function() {
+            return this._attributes.model;
+        },
+        setBrand : function(aBrand) {
+            this._attributes.brand = aBrand;
             return this;
-        }
-
-        this.setModel = function(id) {
-            model = id;
+        },
+        setModel : function(aModel) {
+            this._attributes.model = aModel;
             return this;
-        }
-
-        this.compact = function(){
-            var compact = new Array();
-            return compact;
         }
     };
 
-    return Solicitud ;
+    SolicitudEntity.prototype = _.extend({}, Entity.prototype, SolicitudEntity.prototype);
+    return SolicitudEntity ;
 });

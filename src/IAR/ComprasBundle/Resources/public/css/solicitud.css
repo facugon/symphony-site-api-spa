@@ -5,3 +5,9 @@ div.step {
     background-color: #FFFFEE;
     height: 500px;
 }
+
+div.container img.preview#selection-preview {
+    margin-top: 40px;
+    border: 1px solid #FFFFEE ;
+    width:100%;
+}

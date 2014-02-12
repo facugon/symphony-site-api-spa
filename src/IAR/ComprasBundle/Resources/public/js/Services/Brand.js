@@ -1,33 +1,26 @@
 
 define("Service/Brand",
-    ['jquery','iar/Server','iar/Observable','Entity/Brand'],
-    function($,Server,Observable,Brand) {
+    ['iar/Service','Entity/Brand'],
+    function(Service, BrandEntity) {
 
         function BrandService() {
-            Observable.call(this);
+            Service.call(this);
             this._resource = '/brand/';
             return this;
         };
 
-        BrandService.prototype = Object.create( Observable.prototype ) ;
+        BrandService.prototype = {
+            queryOne : function(id) {
+                var self = this;
 
-        BrandService.prototype.getResource = function() {
-            return this._resource;
+                this.queryOneServer(id,function(r){
+                    var brand = new BrandEntity(id,r.brand);
+                    self.notifyObservers("queryOne",brand);
+                });
+            }
         };
 
-        BrandService.prototype.queryOneServer = function(id,callback) {
-            Server.get(this._resource + id, {}, callback);
-        };
-
-        BrandService.prototype.queryOne = function(id) {
-            var self = this;
-
-            this.queryOneServer(id,function(r){
-                var brand = new Brand(id,r.brand);
-                self.notifyObservers("queryOne",brand);
-            });
-        };
-
-        return BrandService; // return an object instance of Oservable-Service
+        BrandService.prototype = _.extend({}, Service.prototype, BrandService.prototype); // the order is important , http://underscorejs.org/#extend
+        return BrandService;
     }
 );

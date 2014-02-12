@@ -25,6 +25,11 @@ class LoadModelData extends AbstractFixture implements OrderedFixtureInterface, 
         $this->container = $container;
     }
 
+    private $_sqlQuery = '
+            INSERT INTO `Model` (`id`,`name`,`brand_id`,`slug`,`synonym`,`short_name`,`pic_filename`,`disabled`) 
+            VALUES (:ID, :NAME, :BRANDID, :SLUG, :SYNONYM, :SHORTNAME, :PICFILENAME, :DISABLED);
+        ';
+
     private function importJSONData()
     {
         $dataArray = $this->loadJSONData();
@@ -32,10 +37,7 @@ class LoadModelData extends AbstractFixture implements OrderedFixtureInterface, 
         $conn = $this->container->get('database_connection');
         $conn->beginTransaction();
 
-        $stmt = $conn->prepare('
-            INSERT INTO `Model` (`id`,`name`,`brand_id`,`slug`,`synonym`,`short_name`,`pic_filename`,`disabled`) 
-            VALUES (:ID, :NAME, :BRANDID, :SLUG, :SYNONYM, :SHORTNAME, :PICFILENAME, :DISABLED);
-        ');
+        $stmt = $conn->prepare( $this->_sqlQuery );
 
         foreach($dataArray as $brand_models) // all model for each brand
         {
@@ -48,7 +50,7 @@ class LoadModelData extends AbstractFixture implements OrderedFixtureInterface, 
                     'SLUG'        => $model->slug,
                     'SYNONYM'     => $model->synons,
                     'SHORTNAME'   => $model->short_name,
-                    'PICFILENAME' => '',
+                    'PICFILENAME' => $model->pics,
                     'DISABLED'    => 0,
                 );
                 $stmt->execute($insert);
@@ -65,10 +67,7 @@ class LoadModelData extends AbstractFixture implements OrderedFixtureInterface, 
         $conn = $this->container->get('database_connection');
         $conn->beginTransaction();
 
-        $stmt = $conn->prepare('
-            INSERT INTO `Model` (`id`,`name`,`brand_id`,`slug`,`synonym`,`short_name`,`pic_filename`,`disabled`) 
-            VALUES (:ID, :NAME, :BRANDID, :SLUG, :SYNONYM, :SHORTNAME, :PICFILENAME, :DISABLED);
-        ');
+        $stmt = $conn->prepare( $this->_sqlQuery );
 
         foreach( $dataArray->Brand as $objBrand ) // for each brand
         {
@@ -85,7 +84,7 @@ class LoadModelData extends AbstractFixture implements OrderedFixtureInterface, 
                     'SLUG'        => preg_replace('/\s+/','_',trim($objModel->Text)),
                     'SYNONYM'     => '',
                     'SHORTNAME'   => '',
-                    'PICFILENAME' => '',
+                    'PICFILENAME' => 'empty.png',
                     'DISABLED'    => 0,
                 );
                 $stmt->execute($insert);

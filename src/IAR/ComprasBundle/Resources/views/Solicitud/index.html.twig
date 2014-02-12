@@ -7,7 +7,7 @@
 <div class="row">
     <div id="step-1" class="step col-md-3 col-md-offset-1">
         <h2>Paso 1</h2>
-        <div>
+        <div id="container brand">
             <h4>Marca</h4>
             <select class="form-control controller-action" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
                 <option value="0"></option>
@@ -16,11 +16,16 @@
                 {% endfor %}
             </select>
         </div>
-        <div>
+
+        <div id="container model">
             <h4>Modelo</h4>
             <select class="form-control controller-action" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
                 <option value="0"></option>
             </select>
+        </div>
+
+        <div id="container" id="selection-preview">
+            <img class="preview" id="selection-preview" src="{{ asset('bundles/iarcompras/images/models/empty.png') }}" alt="" />
         </div>
     </div>
     <div id="step-2" class="step col-md-3">

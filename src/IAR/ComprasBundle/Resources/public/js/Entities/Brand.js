@@ -1,18 +1,17 @@
 
-define("Entity/Brand",['iar/Entity'], function(Entity) {
+define("Entity/Brand", ['underscore','iar/Entity'], function(_, Entity) {
 
-    function Brand(id,attr) {
+    function BrandEntity(id,attr) {
         Entity.call(this,id,attr);
         return this;
     };
 
-    Brand.prototype = Object.create( Entity.prototype );
-
-    Brand.prototype = {
+    BrandEntity.prototype = {
         getModels : function() {
             return this._attributes.models ;
         }
-    }
+    };
 
-    return Brand ;
+    BrandEntity.prototype = _.extend({}, Entity.prototype, BrandEntity.prototype);
+    return BrandEntity ;
 });

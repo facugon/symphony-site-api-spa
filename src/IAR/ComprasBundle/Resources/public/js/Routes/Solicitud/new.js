@@ -13,17 +13,31 @@ require.config({
         Entity      : '/bundles/iarcompras/js/Entities',
         Service     : '/bundles/iarcompras/js/Services',
         template    : '/bundles/iarcompras/templates',
-        iar         : '/js/iar'
+    },
+    shim : {
+        'underscore': {
+            exports: '_'
+        },
+        'jquery': {
+            exports: '$'
+        },
     }
 });
 
-// Start the main app logic.
-require(['jquery','Controller/Solicitud'], function($, SolicitudController) {
-        var solicitud = new SolicitudController();
+var solicitud ;
+
+// Start the main app logic for this route. todo: build a router and a main application entry point
+require(['Controller/Solicitud'], function(SolicitudController) {
+
+        solicitud = new SolicitudController();
 
         $(function(){
             $("select.controller-action#solicitud-brand").click(function() {
                 solicitud.brandSelectAction(this);
+            });
+
+            $("select.controller-action#solicitud-model").click(function() {
+                solicitud.modelSelectAction(this);
             });
         });
     }
