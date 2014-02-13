@@ -1,12 +1,19 @@
 
 define("Controller/Solicitud",
-    ['jquery','View/Solicitud','Entity/Solicitud','Service/Brand','Service/Model'],
-    function($,View,SolicitudEntity,BrandService,ModelService) {
+    [
+        'jquery',
+        'View/Solicitud',
+        'Entity/Solicitud',
+        'Service/Brand',
+        'Service/Model'
+    ],
+    function($, SolicitudView, SolicitudEntity, BrandService, ModelService) {
          /**
           * CONSTRUCTOR | SETUP
           */
-        function SolicitudController() {
-            this._view = new View() ;
+        function SolicitudController()
+        {
+            this._view      = new SolicitudView(this);
             this._solicitud = new SolicitudEntity();
 
             this._brandService = new BrandService();
@@ -14,7 +21,8 @@ define("Controller/Solicitud",
 
             var self = this ;
 
-            // each time a service query the server, do as follow
+            // each time a service query the server, do something
+            // the controller observe the services so it can update view
             this._brandService.addObserver(this,'queryOne',function(aBrand){
                 self._solicitud.setBrand(aBrand);
                 self._view.renderBrand(aBrand);
@@ -22,18 +30,19 @@ define("Controller/Solicitud",
 
             this._modelService.addObserver(this,'queryOne',function(aModel){
                 self._solicitud.setModel(aModel);
-                //self._view.renderBrand(aBrand);
+                // do something else after model updated?
             });
         }
 
         SolicitudController.prototype = {
-            brandSelectAction : function(uiBrandSelect) {
-                var id = $(uiBrandSelect).val();
-                this._brandService.queryOne(id);
+            brandSelectAction : function(brandId) {
+                this._brandService.queryOne(brandId);
             },
-            modelSelectAction : function(uiModelSelect) {
-                var id = $(uiModelSelect).val();
-                this._modelService.queryOne(id);
+            modelSelectAction : function(modelId) {
+                this._modelService.queryOne(modelId);
+            },
+            detailsChangeAction : function(text) {
+                this._solicitud.setDetails(text);
             }
         }
 

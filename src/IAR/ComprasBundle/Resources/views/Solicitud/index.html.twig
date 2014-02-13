@@ -4,12 +4,14 @@
 
 <link rel="stylesheet" href="{{ asset('/bundles/iarcompras/css/solicitud.css') }}" />
 
-<div class="row">
+<div class="row form" id="solicitud-form">
+
+
     <div id="step-1" class="step col-md-3 col-md-offset-1">
         <h2>Paso 1</h2>
-        <div id="container brand">
+        <div class="form-input" id="brand">
             <h4>Marca</h4>
-            <select class="form-control controller-action" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
+            <select class="form-control view-event" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]">
                 <option value="0"></option>
                 {% for brand in brands %}
                 <option value="{{ brand.id }}">{{ brand.name }}</option>
@@ -17,23 +19,56 @@
             </select>
         </div>
 
-        <div id="container model">
+        <div class="form-input" id="model">
             <h4>Modelo</h4>
-            <select class="form-control controller-action" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
+            <select class="form-control view-event" id="solicitud-model" name="iar_comprasbundle_solicitud[model]">
                 <option value="0"></option>
             </select>
         </div>
 
-        <div id="container" id="selection-preview">
+        <div class="form-input" id="details">
+            <h4>Detalles</h4>
+            <textarea class="form-control view-event" id="solicitud-details" name="iar_comprasbundle_solicitud[details]" placeholder="Puede especificar mas detalles del vehiculo aqui..."></textarea>
+        </div>
+
+        <div class="form-input" id="selection-preview">
             <img class="preview" id="selection-preview" src="{{ asset('bundles/iarcompras/images/models/empty.png') }}" alt="" />
         </div>
     </div>
+
+
     <div id="step-2" class="step col-md-3">
         <h2>Paso 2</h2>
+        <div class="form-input" id="zone">
+            <h4>Zona</h4>
+            <select class="form-control view-event" id="solicitud-zone" name="iar_comprasbundle_solicitud[zone]">
+                <option value="0"></option>
+            </select>
+        </div>
     </div>
+
+
     <div id="step-3" class="step col-md-3">
         <h2>Paso 3</h2>
+        <div class="form-input" id="nombre">
+            <h4>Nombre</h4>
+            <input class="form-control view-event" id="solicitud-nombre" name="iar_comprasbundle_solicitud[nombre]">
+        </div>
+        <div class="form-input" id="apellido">
+            <h4>Apellido</h4>
+            <input class="form-control view-event" id="solicitud-apellido" name="iar_comprasbundle_solicitud[apellido]">
+        </div>
+        <div class="form-input" id="email">
+            <h4>EMail</h4>
+            <input class="form-control view-event" id="solicitud-email" name="iar_comprasbundle_solicitud[email]">
+        </div>
+        <div class="form-input" id="telefono">
+            <h4>Teléfono</h4>
+            <input class="form-control view-event" id="solicitud-telefono" name="iar_comprasbundle_solicitud[telefono]">
+        </div>
     </div>
+
+
 </div>
 
 <script src="{{ asset('js/lib/require.js') }}" data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript"></script>

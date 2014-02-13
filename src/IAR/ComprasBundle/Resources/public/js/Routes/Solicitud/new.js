@@ -24,21 +24,8 @@ require.config({
     }
 });
 
-var solicitud ;
-
 // Start the main app logic for this route. todo: build a router and a main application entry point
 require(['Controller/Solicitud'], function(SolicitudController) {
-
-        solicitud = new SolicitudController();
-
-        $(function(){
-            $("select.controller-action#solicitud-brand").click(function() {
-                solicitud.brandSelectAction(this);
-            });
-
-            $("select.controller-action#solicitud-model").click(function() {
-                solicitud.modelSelectAction(this);
-            });
-        });
+        var solicitudController = new SolicitudController();
     }
 );
