@@ -10,6 +10,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 //use IAR\ComprasBundle\Entity\Solicitud;
 use IAR\ComprasBundle\Entity\Brand;
+use IAR\ComprasBundle\Entity\Zona;
 
 /**
  * Public compra controller.
@@ -29,7 +30,8 @@ class SolicitudController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $brands = $em->getRepository('IARComprasBundle:Brand')->findAll();
+        $zonas = $em->getRepository('IARComprasBundle:Zona')->findAll();
 
-        return array('brands' => $brands );
+        return array('brands' => $brands,'zonas' => $zonas);
     }
 }

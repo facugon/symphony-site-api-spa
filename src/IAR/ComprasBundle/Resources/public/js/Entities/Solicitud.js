@@ -3,9 +3,14 @@ define("Entity/Solicitud",['underscore','iar/Entity'],function(_,Entity) {
 
     // private properties 
     var myAttributes = {
-        'brand'   : null,
-        'model'   : null,
-        'details' : null
+        'brand' : null,
+        'model' : null,
+        'details' : null,
+        'zone' : null,
+        'nombre' : null,
+        'apellido' : null,
+        'email' : null,
+        'telefono' : null
     }
 
     // constructor
@@ -20,27 +25,6 @@ define("Entity/Solicitud",['underscore','iar/Entity'],function(_,Entity) {
 
     // public methods
     SolicitudEntity.prototype = {
-        getBrand : function() {
-            return this._attributes.brand;
-        },
-        setBrand : function(aBrand) {
-            this._attributes.brand = aBrand;
-            return this;
-        },
-        getModel : function() {
-            return this._attributes.model;
-        },
-        setModel : function(aModel) {
-            this._attributes.model = aModel;
-            return this;
-        },
-        setDetails : function(text) {
-            this._attributes.details = text;
-            return this;
-        },
-        getDetails : function(){
-            return this._attributes.details ;
-        }
     };
 
     // extends...

@@ -1,20 +1,18 @@
+var view ;
 
-define("Controller/Solicitud",
-    [
+define("Controller/Solicitud", [
         'jquery',
         'View/Solicitud',
-        'Entity/Solicitud',
         'Service/Brand',
         'Service/Model'
-    ],
-    function($, SolicitudView, SolicitudEntity, BrandService, ModelService) {
+    ], function($, SolicitudView, BrandService, ModelService) {
          /**
           * CONSTRUCTOR | SETUP
           */
         function SolicitudController()
         {
             this._view      = new SolicitudView(this);
-            this._solicitud = new SolicitudEntity();
+			view = this._view;
 
             this._brandService = new BrandService();
             this._modelService = new ModelService();
@@ -24,25 +22,21 @@ define("Controller/Solicitud",
             // each time a service query the server, do something
             // the controller observe the services so it can update view
             this._brandService.addObserver(this,'queryOne',function(aBrand){
-                self._solicitud.setBrand(aBrand);
-                self._view.renderBrand(aBrand);
+                self._view.updateBrand(aBrand);
             });
 
             this._modelService.addObserver(this,'queryOne',function(aModel){
-                self._solicitud.setModel(aModel);
                 // do something else after model updated?
+				self._view.updateModel(aModel);
             });
         }
 
         SolicitudController.prototype = {
-            brandSelectAction : function(brandId) {
+            brandSelectedAction : function(brandId) {
                 this._brandService.queryOne(brandId);
             },
-            modelSelectAction : function(modelId) {
+            modelSelectedAction : function(modelId) {
                 this._modelService.queryOne(modelId);
-            },
-            detailsChangeAction : function(text) {
-                this._solicitud.setDetails(text);
             }
         }
 

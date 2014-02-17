@@ -17,8 +17,17 @@ define('iar/Entity', ['iar/Model'], function(Model) {
         },
         getAttributes : function() {
             return this._attributes;
+        },
+        get : function(field) {
+            return this._attributes[field] ;
+        },
+        set : function(field,value){
+            this._attributes[field] = value;
+            return this;
         }
     }
+
+    Entity.prototype.constructor = Entity ;
 
     return Entity;
 }

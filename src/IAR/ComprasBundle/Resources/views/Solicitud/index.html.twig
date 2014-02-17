@@ -43,6 +43,9 @@
             <h4>Zona</h4>
             <select class="form-control view-event" id="solicitud-zone" name="iar_comprasbundle_solicitud[zone]">
                 <option value="0"></option>
+                {% for zona in zonas %}
+                <option value="{{ zona.id }}">{{ zona.name }}</option>
+                {% endfor %}
             </select>
         </div>
     </div>
