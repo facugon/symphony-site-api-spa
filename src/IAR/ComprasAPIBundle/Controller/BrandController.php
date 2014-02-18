@@ -13,7 +13,7 @@ use FOS\RestBundle\Controller\FOSRestController;
 /**
  * Brand controller.
  *
- * @Route("/brand", defaults={"_format": "json"})
+ * @Route("/api/brand", defaults={"_format": "json"})
  */
 class BrandController extends FOSRestController
 {
@@ -29,8 +29,8 @@ class BrandController extends FOSRestController
 
         $entities = $em->getRepository('IARComprasBundle:Brand')->findAll();
 
-        $response = new JSONResponse;
-        return $response->result( array('brands' => $entities) );
+        $response = new JSONResponse( array('brands' => $entities), 200 );
+        return $response->getContent();
     }
 
     /**
@@ -49,7 +49,16 @@ class BrandController extends FOSRestController
             throw $this->createNotFoundException('Brand not found.');
         }
 
-        $response = new JSONResponse;
-        return $response->result( array('brand' => $entity) );
+        $response = new JSONResponse( array('brand' => $entity), 200 );
+        return $response->getContent();
+    }
+
+    /**
+     * New Brand
+     *
+     * @Route("/", name="api_brand_post")
+     * @Method("POST")
+     */
+    public function postAction() {
     }
 }

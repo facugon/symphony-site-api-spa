@@ -3,19 +3,21 @@ var view ;
 define("Controller/Solicitud", [
         'jquery',
         'View/Solicitud',
+        'Service/Solicitud',
         'Service/Brand',
         'Service/Model'
-    ], function($, SolicitudView, BrandService, ModelService) {
+    ], function($, SolicitudView, SolicitudService, BrandService, ModelService) {
          /**
-          * CONSTRUCTOR | SETUP
+          * CONSTRUCTOR|SETUP
           */
         function SolicitudController()
         {
-            this._view      = new SolicitudView(this);
+            this._view = new SolicitudView(this);
 			view = this._view;
 
             this._brandService = new BrandService();
             this._modelService = new ModelService();
+            this._solicitudService = new SolicitudService();
 
             var self = this ;
 
@@ -29,6 +31,11 @@ define("Controller/Solicitud", [
                 // do something else after model updated?
 				self._view.updateModel(aModel);
             });
+
+            this._solicitudService.addObserver(this,'create',function(response){
+                // do something with the submit response?
+                self._view.showSubmitResponse(response);
+            });
         }
 
         SolicitudController.prototype = {
@@ -37,6 +44,9 @@ define("Controller/Solicitud", [
             },
             modelSelectedAction : function(modelId) {
                 this._modelService.queryOne(modelId);
+            },
+            submitAction : function( solicitud ) { // llega por parametro una entidad solicitud
+                this._solicitudService.create( solicitud );
             }
         }
 

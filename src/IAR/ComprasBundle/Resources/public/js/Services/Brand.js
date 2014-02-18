@@ -5,7 +5,7 @@ define("Service/Brand",
 
         function BrandService() {
             Service.call(this);
-            this._resource = '/brand/';
+            this._resource = '/api/brand/';
             return this;
         };
 

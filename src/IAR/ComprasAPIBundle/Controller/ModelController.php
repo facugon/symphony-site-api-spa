@@ -13,7 +13,7 @@ use FOS\RestBundle\Controller\FOSRestController;
 /**
  * Model controller.
  *
- * @Route("/model", defaults={"_format": "json"})
+ * @Route("/api/model", defaults={"_format": "json"})
  */
 class ModelController extends FOSRestController
 {
@@ -29,8 +29,8 @@ class ModelController extends FOSRestController
 
         $entities = $em->getRepository('IARComprasBundle:Model')->findAll();
 
-        $response = new JSONResponse;
-        return $response->result( array('models' => $entities) );
+        $response = new JSONResponse( array('models' => $entities), 200 );
+        return $response->getContent();
     }
 
     /**
@@ -49,7 +49,7 @@ class ModelController extends FOSRestController
             throw $this->createNotFoundException('Model not found');
         }
 
-        $response = new JSONResponse;
-        return $response->result( array('model' => $entity) );
+        $response = new JSONResponse( array('model' => $entity), 200 );
+        return $response->getContent();
     }
 }

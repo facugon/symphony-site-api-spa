@@ -4,7 +4,7 @@ define("Service/Model", ['iar/Service','Entity/Model'],
 
         function ModelService() {
             Service.call(this);
-            this._resource = '/model/';
+            this._resource = '/api/model/';
             return this;
         };
 

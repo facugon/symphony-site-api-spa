@@ -1,0 +1,89 @@
+{% extends '::layout.html.twig' %}
+
+{% block main %}
+
+<link rel="stylesheet" href="{{ asset('/bundles/iarcompras/css/solicitud.css') }}" />
+
+<link rel="stylesheet" href="{{ asset('/css/vendor/alertify.core.css') }}" />
+<link rel="stylesheet" href="{{ asset('/css/vendor/alertify.default.css') }}" />
+<!-- <link rel="stylesheet" href="{{ asset('/css/vendor/alertify.bootstrap.css') }}" /> -->
+
+<div class="form-container">
+    <form>
+
+        <div class="row form" id="solicitud-form">
+            <div id="step-1" class="step col-md-3 col-md-offset-1">
+                <h2>Paso 1</h2>
+                <div class="form-input" id="brand">
+                    <h4>Marca</h4>
+                    <select class="form-control view-event" id="solicitud-brand" name="iar_comprasbundle_solicitud[brand]" type="notempty">
+                        <option value="0"></option>
+                        {% for brand in brands %}
+                        <option value="{{ brand.id }}">{{ brand.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-input" id="model">
+                    <h4>Modelo</h4>
+                    <select class="form-control view-event" id="solicitud-model" name="iar_comprasbundle_solicitud[model]" type="notempty">
+                        <option value="0"></option>
+                    </select>
+                </div>
+
+                <div class="form-input" id="details">
+                    <h4>Detalles</h4>
+                    <textarea class="form-control view-event" id="solicitud-details" name="iar_comprasbundle_solicitud[details]" placeholder="Puede especificar mas detalles del vehiculo aqui..."></textarea>
+                </div>
+
+                <div class="form-input" id="selection-preview">
+                    <img class="preview" id="selection-preview" src="{{ asset('bundles/iarcompras/images/models/empty.png') }}" alt="" />
+                </div>
+            </div>
+
+            <div id="step-2" class="step col-md-3">
+                <h2>Paso 2</h2>
+                <div class="form-input" id="zone">
+                    <h4>Zona</h4>
+                    <select class="form-control view-event" id="solicitud-zone" name="iar_comprasbundle_solicitud[zone]" type="notempty">
+                        <option value="0"></option>
+                        {% for zona in zonas %}
+                        <option value="{{ zona.id }}">{{ zona.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+            <div id="step-3" class="step col-md-3">
+                <h2>Paso 3</h2>
+                <div class="form-input" id="nombre">
+                    <h4>Nombre</h4>
+                    <input class="form-control view-event" id="solicitud-nombre" name="iar_comprasbundle_solicitud[nombre]" required placeholder="Nombre">
+                </div>
+                <div class="form-input" id="apellido">
+                    <h4>Apellido</h4>
+                    <input class="form-control view-event" id="solicitud-apellido" name="iar_comprasbundle_solicitud[apellido]" required placeholder="Apellido">
+                </div>
+                <div class="form-input" id="email">
+                    <h4>EMail</h4>
+                    <input class="form-control view-event" id="solicitud-email" name="iar_comprasbundle_solicitud[email]" type="email" required placeholder="EMail">
+                </div>
+                <div class="form-input" id="telefono">
+                    <h4>Teléfono</h4>
+                    <input class="form-control view-event" id="solicitud-telefono" name="iar_comprasbundle_solicitud[telefono]" required placeholder="Telefono">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="final-step">
+                <button class="btn btn-lg btn-primary view-event" id="solicitud-submit" name="_submit">Submit</button>
+            </div>
+        </div>
+
+    </form>
+</div> <!-- form container ends -->
+
+<script src="{{ asset('js/vendor/require.js') }}" data-main="{{ asset('bundles/iarcompras/js/Routes/Solicitud/new.js') }}" type="text/javascript"></script>
+
+{% endblock main %}

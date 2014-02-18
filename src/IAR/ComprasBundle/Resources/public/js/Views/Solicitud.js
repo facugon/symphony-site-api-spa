@@ -1,25 +1,27 @@
 
 define("View/Solicitud",[
     'jquery',
+    'alertify',
     'mustache',
     'View/CarModel',
     'Entity/Solicitud',
     //'text!Template/Solicitud/car-preview.html.mustache',
-    ], function($, Mustache, CarModelView, SolicitudEntity) {
+    'jvalidate'
+    ], function($, Alertify, Mustache, CarModelView, SolicitudEntity) {
 
         // solicitud form elements events
-        var selectCarModelUI  = $('select.view-event#solicitud-model');
-        var selectCarBrandUI  = $("select.view-event#solicitud-brand");
-        var textareaDetailsUI = $("textarea.view-event#solicitud-details");
-        var selectZoneUI      = $('select.view-event#solicitud-zone');
+        var selectCarModelUI  = $('div.form-container select.view-event#solicitud-model');
+        var selectCarBrandUI  = $('div.form-container select.view-event#solicitud-brand');
+        var textareaDetailsUI = $('div.form-container textarea.view-event#solicitud-details');
+        var selectZoneUI      = $('div.form-container select.view-event#solicitud-zone');
+        var inputNombreUI     = $('div.form-container input.view-event#solicitud-nombre');
+        var inputApellidoUI   = $('div.form-container input.view-event#solicitud-apellido');
+        var inputEMailUI      = $('div.form-container input.view-event#solicitud-email');
+        var inputTelefonoUI   = $('div.form-container input.view-event#solicitud-telefono');
+        var buttonSubmit      = $('div.form-container button.view-event#solicitud-submit');
 
-        var inputNombreUI     = $('input.view-event#solicitud-nombre');
-        var inputApellidoUI   = $('input.view-event#solicitud-apellido');
-        var inputEMailUI      = $('input.view-event#solicitud-email');
-        var inputTelefonoUI   = $('input.view-event#solicitud-telefono');
-
-
-        function SolicitudView(controller) {
+        function SolicitudView(controller)
+        {
             this._controller = controller;
             this._solicitud = new SolicitudEntity();
 
@@ -27,45 +29,42 @@ define("View/Solicitud",[
 
             // setup view events
             $(function() {
-                selectCarBrandUI.click(function() {
-                    var id = $(this).val();
-                    self._controller.brandSelectedAction(id);
+
+                buttonSubmit.click(function(event){
+                    event.preventDefault(); // use jQuery Validate, not the built-in browser HTML5 validations
+
+                    var validator = $("div.form-container form").validate();
+
+                    if( validator.form() ) {
+                        self._controller.submitAction({ 'solicitud' : self._solicitud.getAttributes() });
+                    }
                 });
 
-                selectCarModelUI.click(function() {
-                    var id = $(this).val();
-                    self._controller.modelSelectedAction(id);
+                selectCarBrandUI.click(function(){
+                    var brand = $(this).val();
+                    if( brand != 0 ) { 
+                        self._controller.brandSelectedAction( brand );
+                    }
                 });
 
-                textareaDetailsUI.change(function(){
-                    var text = $(this).val();
-                    self._solicitud.set('details',text);
+                selectCarModelUI.click(function(){
+                    var model = $(this).val() ;
+                    if( model != 0 ) {
+                        self._controller.modelSelectedAction( model );
+                    }
                 });
 
-                selectZoneUI.change(function(){
-                    var zoneId = $(this).val();
-                    self._solicitud.set('zone',zoneId);
+                textareaDetailsUI.change(function(){ self._solicitud.set('details',$(this).val()); });
+                selectZoneUI.change(function(){ 
+                    var zona = $(this).val();
+                    if( zona != 0 ) { 
+                        self._solicitud.set('zona',zona);
+                    }
                 });
-
-                inputNombreUI.change(function(){
-                var nombre = $(this).val();
-                    self._solicitud.set('nombre',nombre);
-                });
-
-                inputApellidoUI.change(function(){
-                var apellido = $(this).val();
-                    self._solicitud.set('apellido',apellido);
-                });
-
-                inputEMailUI.change(function(){
-                var email = $(this).val();
-                    self._solicitud.set('email',email);
-                });
-
-                inputTelefonoUI.change(function(){
-                var telefono = $(this).val();
-                    self._solicitud.set('telefono',telefono);
-                });
+                inputNombreUI.change(function(){ self._solicitud.set('nombre',$(this).val()); });
+                inputApellidoUI.change(function(){ self._solicitud.set('apellido',$(this).val()); });
+                inputEMailUI.change(function(){ self._solicitud.set('email',$(this).val()); });
+                inputTelefonoUI.change(function(){ self._solicitud.set('telefono',$(this).val()); });
             });
         };
 
@@ -82,6 +81,14 @@ define("View/Solicitud",[
             },
             renderSelectionPreview : function() {
                 // nothing by now ...
+            },
+            showSubmitResponse : function(response) {
+                console.log(response);
+                Alertify.alert('Gracias por confiar en Compremosjuntos! Pronto nos pondremos en contacto.',
+                    function(){
+                        window.location = '/' ;
+                    }
+                );
             }
         }
 

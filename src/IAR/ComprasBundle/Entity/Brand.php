@@ -2,6 +2,8 @@
 
 namespace IAR\ComprasBundle\Entity;
 
+use Symfony\Component\Validator\Constraints as Assert;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -23,6 +25,7 @@ class Brand
 
     /**
      * @var string
+     * @Assert\NotBlank
      * @ORM\Column(name="name", type="string", length=100)
      */
     private $name;
@@ -65,10 +68,11 @@ class Brand
 
     /**
      * @var ArrayCollection $models
+     * @Assert\NotNull
      *
      * @ORM\OneToMany(targetEntity="Model", mappedBy="brand")
      */
-    private $models;
+    private $models=null;
 
     /**
      * Constructor

@@ -12,8 +12,13 @@ define("iar/Service", ['underscore','iar/Server','iar/Observable'],
             getResource : function() {
                 return this._resource;
             },
-            queryOneServer : function(id,callback) {
+            queryOneServer : function(id, callback) {
+            // if _resource is null validate
                 Server.get(this._resource + id, {}, callback);
+            },
+            submitServer : function(data, callback) {
+            // if _resource is null validate
+                Server.post(this._resource, data, callback);
             }
         };
 
