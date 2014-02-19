@@ -1,9 +1,9 @@
 
 .row div.step {
     margin-right: 30px;
-    border: 1px solid #5FD600;
+    border: 1px solid #666666;
     background-color: #FFFFEE;
-    height: 600px;
+    height: 550px;
 }
 
 div.container img.preview#selection-preview {

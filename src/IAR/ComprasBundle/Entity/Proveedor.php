@@ -22,32 +22,70 @@ class Proveedor
     private $id;
 
     /**
-     * @var string
+     * @var integer
      *
-     * @ORM\Column(name="razon_social", type="string", length=255)
+     * @ORM\Column(name="codigo_ce", type="integer")
      */
-    private $razonSocial;
+    private $codigoCe;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="direccion", type="string", length=255)
+     * @ORM\Column(name="nombre_ce", type="string", length=100)
      */
-    private $direccion;
+    private $nombreCe;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="telefono", type="string", length=255)
+     * @ORM\Column(name="email", type="string", length=100, nullable=true)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telefono", type="string", length=100, nullable=true)
      */
     private $telefono;
 
     /**
+     * @var \IAR\CommonsBundle\Entity\Provincia
+     *
+     * @ORM\ManyToOne(targetEntity="\IAR\CommonsBundle\Entity\Provincia")
+     * @ORM\JoinColumn(name="provincia_id", referencedColumnName="id", nullable=true)
+     */
+    private $provincia;
+
+    /**
+     * @var \IAR\CommonsBundle\Entity\Localidad
+     *
+     * @ORM\ManyToOne(targetEntity="\IAR\CommonsBundle\Entity\Localidad")
+     * @ORM\JoinColumn(name="localidad_id", referencedColumnName="id", nullable=true)
+     */
+    private $localidad;
+
+    /**
+     * @var \IAR\CommonsBundle\Entity\Zona
+     *
+     * @ORM\ManyToOne(targetEntity="\IAR\CommonsBundle\Entity\Zona")
+     * @ORM\JoinColumn(name="zona_id", referencedColumnName="id", nullable=true)
+     */
+    private $zona;
+
+    /**
      * @var string
      *
-     * @ORM\Column(name="email", type="string", length=255)
+     * @ORM\Column(name="nombre_responsable", type="string", length=100, nullable=true)
      */
-    private $email;
+    private $nombreResponsable;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="apellido_responsable", type="string", length=100, nullable=true)
+     */
+    private $apellidoResponsable;
 
 
     /**
@@ -61,49 +99,72 @@ class Proveedor
     }
 
     /**
-     * Set razonSocial
+     * Set codigoCe
      *
-     * @param string $razonSocial
+     * @param integer $codigoCe
      * @return Proveedor
      */
-    public function setRazonSocial($razonSocial)
+    public function setCodigoCe($codigoCe)
     {
-        $this->razonSocial = $razonSocial;
+        $this->codigoCe = $codigoCe;
     
         return $this;
     }
 
     /**
-     * Get razonSocial
+     * Get codigoCe
      *
-     * @return string 
+     * @return integer 
      */
-    public function getRazonSocial()
+    public function getCodigoCe()
     {
-        return $this->razonSocial;
+        return $this->codigoCe;
     }
 
     /**
-     * Set direccion
+     * Set nombreCe
      *
-     * @param string $direccion
+     * @param string $nombreCe
      * @return Proveedor
      */
-    public function setDireccion($direccion)
+    public function setNombreCe($nombreCe)
     {
-        $this->direccion = $direccion;
+        $this->nombreCe = $nombreCe;
     
         return $this;
     }
 
     /**
-     * Get direccion
+     * Get nombreCe
      *
      * @return string 
      */
-    public function getDireccion()
+    public function getNombreCe()
     {
-        return $this->direccion;
+        return $this->nombreCe;
+    }
+
+    /**
+     * Set email
+     *
+     * @param string $email
+     * @return Proveedor
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    
+        return $this;
+    }
+
+    /**
+     * Get email
+     *
+     * @return string 
+     */
+    public function getEmail()
+    {
+        return $this->email;
     }
 
     /**
@@ -130,25 +191,117 @@ class Proveedor
     }
 
     /**
-     * Set email
+     * Set nombreResponsable
      *
-     * @param string $email
+     * @param string $nombreResponsable
      * @return Proveedor
      */
-    public function setEmail($email)
+    public function setNombreResponsable($nombreResponsable)
     {
-        $this->email = $email;
+        $this->nombreResponsable = $nombreResponsable;
     
         return $this;
     }
 
     /**
-     * Get email
+     * Get nombreResponsable
      *
      * @return string 
      */
-    public function getEmail()
+    public function getNombreResponsable()
     {
-        return $this->email;
+        return $this->nombreResponsable;
+    }
+
+    /**
+     * Set apellidoResponsable
+     *
+     * @param string $apellidoResponsable
+     * @return Proveedor
+     */
+    public function setApellidoResponsable($apellidoResponsable)
+    {
+        $this->apellidoResponsable = $apellidoResponsable;
+    
+        return $this;
+    }
+
+    /**
+     * Get apellidoResponsable
+     *
+     * @return string 
+     */
+    public function getApellidoResponsable()
+    {
+        return $this->apellidoResponsable;
+    }
+
+    /**
+     * Set provincia
+     *
+     * @param \IAR\CommonsBundle\Entity\Provincia $provincia
+     * @return Proveedor
+     */
+    public function setProvincia(\IAR\CommonsBundle\Entity\Provincia $provincia = null)
+    {
+        $this->provincia = $provincia;
+    
+        return $this;
+    }
+
+    /**
+     * Get provincia
+     *
+     * @return \IAR\CommonsBundle\Entity\Provincia 
+     */
+    public function getProvincia()
+    {
+        return $this->provincia;
+    }
+
+    /**
+     * Set localidad
+     *
+     * @param \IAR\CommonsBundle\Entity\Localidad $localidad
+     * @return Proveedor
+     */
+    public function setLocalidad(\IAR\CommonsBundle\Entity\Localidad $localidad = null)
+    {
+        $this->localidad = $localidad;
+    
+        return $this;
+    }
+
+    /**
+     * Get localidad
+     *
+     * @return \IAR\CommonsBundle\Entity\Localidad 
+     */
+    public function getLocalidad()
+    {
+        return $this->localidad;
+    }
+
+    /**
+     * Set zona
+     *
+     * @param \IAR\CommonsBundle\Entity\Zona $zona
+     * @return Proveedor
+     */
+    public function setZona(\IAR\CommonsBundle\Entity\Zona $zona = null)
+    {
+        $this->zona = $zona;
+    
+        return $this;
+    }
+
+    /**
+     * Get zona
+     *
+     * @return \IAR\CommonsBundle\Entity\Zona 
+     */
+    public function getZona()
+    {
+        return $this->zona;
     }
 }

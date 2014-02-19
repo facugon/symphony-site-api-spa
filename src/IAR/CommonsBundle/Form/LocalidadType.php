@@ -1,12 +1,12 @@
 <?php
 
-namespace IAR\ComprasBundle\Form;
+namespace IAR\CommonsBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-class ZonaType extends AbstractType
+class LocalidadType extends AbstractType
 {
         /**
      * @param FormBuilderInterface $builder
@@ -15,7 +15,8 @@ class ZonaType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name')
+            ->add('nombre')
+            ->add('provincia')
         ;
     }
     
@@ -25,7 +26,7 @@ class ZonaType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'IAR\ComprasBundle\Entity\Zona'
+            'data_class' => 'IAR\CommonsBundle\Entity\Localidad'
         ));
     }
 
@@ -34,6 +35,6 @@ class ZonaType extends AbstractType
      */
     public function getName()
     {
-        return 'iar_comprasbundle_zona';
+        return 'iar_commonsbundle_localidad';
     }
 }

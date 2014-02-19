@@ -1,9 +1,9 @@
-{% extends '::base.html.twig' %}
+{% extends 'IARMainBundle:Admin:layout.html.twig' %}
 
-{% block body -%}
+{% block main -%}
     <h1>Solicitud</h1>
 
-    <table class="record_properties">
+    <table class="table">
         <tbody>
             <tr>
                 <th>Id</th>
@@ -12,6 +12,18 @@
             <tr>
                 <th>Detalles</th>
                 <td>{{ entity.detalles }}</td>
+            </tr>
+            <tr>
+                <th>Marca</th>
+                <td>{{ entity.brand }}</td>
+            </tr>
+            <tr>
+                <th>Modelo</th>
+                <td>{{ entity.model }}</td>
+            </tr>
+            <tr>
+                <th>Zona</th>
+                <td>{{ entity.zona }}</td>
             </tr>
             <tr>
                 <th>Nombre</th>
@@ -28,6 +40,18 @@
             <tr>
                 <th>Telefono</th>
                 <td>{{ entity.telefono }}</td>
+            </tr>
+            <tr>
+                <th>Fecha</th>
+                <td>{{ entity.date|date('d-m-Y') }}</td>
+            </tr>
+            <tr>
+                <th>Hora</th>
+                <td>{{ entity.time|date('H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Ultima Modificacion</th>
+                <td>{{ entity.timestamp|date('d-m-Y H:i:s') }}</td>
             </tr>
         </tbody>
     </table>

@@ -90,15 +90,36 @@ class Solicitud
     private $model;
 
     /**
-     * @var Zona 
+     * @var \IAR\CommonsBundle\Entity\Zona 
      *
      * @Assert\NotNull
      * @Assert\Valid
      *
-     * @ORM\ManyToOne(targetEntity="Zona")
+     * @ORM\ManyToOne(targetEntity="\IAR\CommonsBundle\Entity\Zona")
      * @ORM\JoinColumn(name="zona_id",referencedColumnName="id", nullable=false)
      */
     private $zona;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date", type="date")
+     */
+    private $date;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="time", type="time")
+     */
+    private $time;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="timestamp", type="datetime")
+     */
+    private $timestamp;
 
     /**
      * Get id
@@ -274,10 +295,10 @@ class Solicitud
     /**
      * Set zona
      *
-     * @param \IAR\ComprasBundle\Entity\Zona $zona
+     * @param \IAR\CommonsBundle\Entity\Zona $zona
      * @return Solicitud
      */
-    public function setZona(\IAR\ComprasBundle\Entity\Zona $zona)
+    public function setZona(\IAR\CommonsBundle\Entity\Zona $zona)
     {
         $this->zona = $zona;
     
@@ -287,19 +308,94 @@ class Solicitud
     /**
      * Get zona
      *
-     * @return \IAR\ComprasBundle\Entity\Zona 
+     * @return \IAR\CommonsBundle\Entity\Zona 
      */
     public function getZona()
     {
         return $this->zona;
     }
 
+    /**
+     * Set date
+     *
+     * @param \DateTime $date
+     * @return Solicitud
+     */
+    public function setDate(\DateTime $date)
+    {
+        $this->date = $date;
+    
+        return $this;
+    }
+
+    /**
+     * Get date
+     *
+     * @return \DateTime 
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set time
+     *
+     * @param \DateTime $time
+     * @return Solicitud
+     */
+    public function setTime(\DateTime $time)
+    {
+        $this->time = $time;
+    
+        return $this;
+    }
+
+    /**
+     * Get time
+     *
+     * @return \DateTime 
+     */
+    public function getTime()
+    {
+        return $this->time;
+    }
+
+    /**
+     * Set timestamp
+     *
+     * @param \DateTime $timestamp
+     * @return Solicitud
+     */
+    public function setTimestamp(\DateTime $timestamp)
+    {
+        $this->timestamp = $timestamp;
+    
+        return $this;
+    }
+
+    /**
+     * Get timestamp
+     *
+     * @return \DateTime 
+     */
+    public function getTimestamp()
+    {
+        return $this->timestamp;
+    }
+
+    /**
+     * Set all properties at once
+     *
+     * @param array $input
+     * @return Solicitud
+     */
     public function set(array $input)
     {
         $props = get_object_vars($this);
 
         foreach( $props as $property => $value ) {
-            if( isset($input[ $property ]) ) {
+            if( isset($input[ $property ]) ) { // index exists
                 $this->{$property} = $input[$property] ;
             }
         }

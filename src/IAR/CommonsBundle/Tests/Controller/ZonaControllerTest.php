@@ -1,6 +1,6 @@
 <?php
 
-namespace IAR\ComprasBundle\Tests\Controller;
+namespace IAR\CommonsBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
@@ -19,7 +19,7 @@ class ZonaControllerTest extends WebTestCase
 
         // Fill in the form and submit it
         $form = $crawler->selectButton('Create')->form(array(
-            'iar_comprasbundle_zonatype[field_name]'  => 'Test',
+            'iar_commonsbundle_zonatype[field_name]'  => 'Test',
             // ... other fields to fill
         ));
 
@@ -33,7 +33,7 @@ class ZonaControllerTest extends WebTestCase
         $crawler = $client->click($crawler->selectLink('Edit')->link());
 
         $form = $crawler->selectButton('Edit')->form(array(
-            'iar_comprasbundle_zonatype[field_name]'  => 'Foo',
+            'iar_commonsbundle_zonatype[field_name]'  => 'Foo',
             // ... other fields to fill
         ));
 

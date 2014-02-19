@@ -70,6 +70,9 @@ class SolicitudController extends FOSRestController
         $input['zona']  = $em->getRepository('IARComprasBundle:Zona')->find( $input['zona'] );
 
         $solicitud->set($input);
+        $solicitud->setDate( new \DateTime('NOW') );
+        $solicitud->setTime( new \DateTime('NOW') );
+        $solicitud->setTimestamp( new \DateTime('NOW') );
 
         $validator = $this->get('validator');
         $errors = $validator->validate($solicitud);

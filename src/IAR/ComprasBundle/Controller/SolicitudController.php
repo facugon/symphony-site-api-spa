@@ -10,7 +10,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 use IAR\ComprasBundle\Entity\Solicitud;
 use IAR\ComprasBundle\Entity\Brand;
-use IAR\ComprasBundle\Entity\Zona;
+use IAR\CommonsBundle\Entity\Zona;
 
 use IAR\ComprasBundle\Form\SolicitudType;
 
@@ -32,7 +32,7 @@ class SolicitudController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $brands = $em->getRepository('IARComprasBundle:Brand')->findAll();
-        $zonas = $em->getRepository('IARComprasBundle:Zona')->findAll();
+        $zonas = $em->getRepository('IARCommonsBundle:Zona')->findAll();
 
         return array('brands' => $brands,'zonas' => $zonas);
     }
@@ -200,6 +200,7 @@ class SolicitudController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository('IARComprasBundle:Solicitud')->find($id);
+        $entity->setTimestamp(new \DateTime('NOW') );
 
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Solicitud entity.');

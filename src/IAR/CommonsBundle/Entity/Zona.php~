@@ -1,6 +1,6 @@
 <?php
 
-namespace IAR\ComprasBundle\Entity;
+namespace IAR\CommonsBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Zona
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="IAR\ComprasBundle\Entity\Repository\ZonaRepository")
+ * @ORM\Entity()
  */
 class Zona
 {
@@ -28,6 +28,13 @@ class Zona
      */
     private $name;
 
+    /**
+     * @var Localidad
+     *
+     * @ORM\ManyToOne(targetEntity="Localidad")
+     * @ORM\JoinColumn(name="localidad_id", referencedColumnName="id")
+     */
+    private $localidad;
 
     /**
      * Get id
@@ -59,6 +66,10 @@ class Zona
      */
     public function getName()
     {
+        return $this->name;
+    }
+
+    public function __toString() {
         return $this->name;
     }
 }

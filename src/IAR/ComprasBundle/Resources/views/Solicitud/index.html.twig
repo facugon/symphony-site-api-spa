@@ -1,13 +1,16 @@
-{% extends '::base.html.twig' %}
+{% extends 'IARMainBundle:Admin:layout.html.twig' %}
 
-{% block body -%}
+{% block main -%}
     <h1>Solicitud list</h1>
 
-    <table class="records_list">
+    <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
                 <th>Detalles</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Zona</th>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
@@ -20,6 +23,9 @@
             <tr>
                 <td><a href="{{ path('admin_solicitud_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td>{{ entity.detalles }}</td>
+                <td>{{ entity.brand }}</td>
+                <td>{{ entity.model }}</td>
+                <td>{{ entity.zona }}</td>
                 <td>{{ entity.nombre }}</td>
                 <td>{{ entity.apellido }}</td>
                 <td>{{ entity.email }}</td>

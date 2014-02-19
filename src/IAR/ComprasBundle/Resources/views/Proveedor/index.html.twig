@@ -7,10 +7,15 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Razonsocial</th>
-                <th>Direccion</th>
-                <th>Telefono</th>
+                <th>Codigo CE</th>
+                <th>Nombre CE</th>
+                <th>Provincia</th>
+                <th>Localidad</th>
+                <th>Zona</th>
                 <th>Email</th>
+                <th>Telefono</th>
+                <th>Nombre Responsable</th>
+                <th>Apellido Responsable</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -18,10 +23,15 @@
         {% for entity in entities %}
             <tr>
                 <td><a href="{{ path('admin_proveedor_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
-                <td>{{ entity.razonSocial }}</td>
-                <td>{{ entity.direccion }}</td>
-                <td>{{ entity.telefono }}</td>
+                <td>{{ entity.codigoCe }}</td>
+                <td>{{ entity.nombreCe }}</td>
+                <td>{{ entity.provincia }}</td>
+                <td>{{ entity.localidad }}</td>
+                <td>{{ entity.zona }}</td>
                 <td>{{ entity.email }}</td>
+                <td>{{ entity.telefono }}</td>
+                <td>{{ entity.nombreResponsable }}</td>
+                <td>{{ entity.apellidoResponsable }}</td>
                 <td>
                 <ul>
                     <li>

@@ -252,4 +252,8 @@ class Model
     {
         return $this->disabled;
     }
+
+    public function __toString() {
+        return $this->name ;
+    }
 }

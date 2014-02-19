@@ -16,13 +16,50 @@
 
 <li>
 <a href="#" class="dropdown-toggle" >
-    <i class="icon-edit"></i>
+    <i class="icon-group"></i>
     <span>Users</span>
     <b class="arrow icon-angle-down"></b>
 </a>
 <ul class="submenu">
     <li><a href="{{ path('admin_user') }}"><i class="icon-double-angle-right"></i>List</a></li>
     <li><a href="{{ path('admin_user_new') }}"><i class="icon-double-angle-right"></i>Create</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="dropdown-toggle" >
+    <i class="icon-cogs"></i>
+    <span>Autos</span>
+    <b class="arrow icon-angle-down"></b>
+</a>
+<ul class="submenu">
+    <li><a href="{{ path('admin_brand') }}"><i class="icon-double-angle-right"></i>Marcas</a></li>
+    <li><a href="{{ path('admin_model') }}"><i class="icon-double-angle-right"></i>Modelos</a></li>
+    <li><a href="{{ path('admin_proveedor') }}"><i class="icon-double-angle-right"></i>Proveedores</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="dropdown-toggle" >
+    <i class="icon-globe"></i>
+    <span>Direcciones</span>
+    <b class="arrow icon-angle-down"></b>
+</a>
+<ul class="submenu">
+    <li><a href="{{ path('admin_provincia') }}"><i class="icon-double-angle-right"></i>Provincias</a></li>
+    <li><a href="{{ path('admin_localidad') }}"><i class="icon-double-angle-right"></i>Localidades</a></li>
+    <li><a href="{{ path('admin_zona') }}"><i class="icon-double-angle-right"></i>Zonas</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="dropdown-toggle" >
+    <i class="icon-envelope"></i>
+    <span>Solicitudes</span>
+    <b class="arrow icon-angle-down"></b>
+</a>
+<ul class="submenu">
+    <li><a href="{{ path('admin_solicitud') }}"><i class="icon-double-angle-right"></i>List</a></li>
 </ul>
 </li>
 
