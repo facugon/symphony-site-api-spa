@@ -45,8 +45,7 @@
                 <h2>Paso 2</h2>
                 <div class="form-input" id="zone">
                     <h4>Zona</h4>
-                    <select class="form-control view-event" id="solicitud-zone" name="iar_comprasbundle_solicitud[zone]" type="notempty">
-                        <option value="0"></option>
+                    <select class="form-control view-event" id="solicitud-zone" name="iar_comprasbundle_solicitud[zone][]" type="notempty" multiple>
                         {% for zona in zonas %}
                         <option value="{{ zona.id }}">{{ zona.name }}</option>
                         {% endfor %}

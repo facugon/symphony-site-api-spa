@@ -6,7 +6,7 @@ define("Entity/Solicitud",['underscore','iar/Entity'],function( _, Entity ) {
         'brand' : null,
         'model' : null,
         'details' : null,
-        'zona' : null,
+        'zona' : new Array(),
         'nombre' : null,
         'apellido' : null,
         'email' : null,
@@ -35,6 +35,12 @@ define("Entity/Solicitud",['underscore','iar/Entity'],function( _, Entity ) {
             attr.model = model != null ? model.get('id') : null ;
 
             return attr ;
+        },
+        addZonas : function(zona) {
+            this._attributes.zona.push( zona );
+        },
+        emptyZonas : function() {
+            this._attributes.zona.length = 0 ;
         }
     };
 

@@ -56,10 +56,17 @@ define("View/Solicitud",[
 
                 textareaDetailsUI.change(function(){ self._solicitud.set('details',$(this).val()); });
                 selectZoneUI.change(function(){ 
-                    var zona = $(this).val();
-                    if( zona != 0 ) { 
-                        self._solicitud.set('zona',zona);
+                    var elems = $(this).children(":selected"); // selected zones
+
+                    self._solicitud.emptyZonas();
+
+                    if( elems.length != 0 ) { 
+                        elems.each(function(){
+                            self._solicitud.addZona( $(this).val() );
+                        });
                     }
+
+                    console.log(self._solicitud.get('zona');
                 });
                 inputNombreUI.change(function(){ self._solicitud.set('nombre',$(this).val()); });
                 inputApellidoUI.change(function(){ self._solicitud.set('apellido',$(this).val()); });

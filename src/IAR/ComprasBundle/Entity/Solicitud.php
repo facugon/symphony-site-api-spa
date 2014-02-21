@@ -90,15 +90,17 @@ class Solicitud
     private $model;
 
     /**
-     * @var \IAR\CommonsBundle\Entity\Zona 
+     * @var ArrayCollection(\IAR\CommonsBundle\Entity\Zona) $zonas
      *
      * @Assert\NotNull
      * @Assert\Valid
-     *
-     * @ORM\ManyToOne(targetEntity="\IAR\CommonsBundle\Entity\Zona")
-     * @ORM\JoinColumn(name="zona_id",referencedColumnName="id", nullable=false)
+     * @ORM\ManyToMany(targetEntity="\IAR\CommonsBundle\Entity\Zona")
+     * @ORM\JoinTable(name="Solicitud_Zona",
+     *      joinColumns={@ORM\JoinColumn(name="solicitud_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="zona_id", referencedColumnName="id")}
+     * )
      */
-    private $zona;
+    private $zonas;
 
     /**
      * @var \DateTime
@@ -293,29 +295,6 @@ class Solicitud
     }
 
     /**
-     * Set zona
-     *
-     * @param \IAR\CommonsBundle\Entity\Zona $zona
-     * @return Solicitud
-     */
-    public function setZona(\IAR\CommonsBundle\Entity\Zona $zona)
-    {
-        $this->zona = $zona;
-    
-        return $this;
-    }
-
-    /**
-     * Get zona
-     *
-     * @return \IAR\CommonsBundle\Entity\Zona 
-     */
-    public function getZona()
-    {
-        return $this->zona;
-    }
-
-    /**
      * Set date
      *
      * @param \DateTime $date
@@ -401,5 +380,45 @@ class Solicitud
         }
 
         return $this;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->zonas = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add zonas
+     *
+     * @param \IAR\CommonsBundle\Entity\Zona $zonas
+     * @return Solicitud
+     */
+    public function addZona(\IAR\CommonsBundle\Entity\Zona $zonas)
+    {
+        $this->zonas[] = $zonas;
+    
+        return $this;
+    }
+
+    /**
+     * Remove zonas
+     *
+     * @param \IAR\CommonsBundle\Entity\Zona $zonas
+     */
+    public function removeZona(\IAR\CommonsBundle\Entity\Zona $zonas)
+    {
+        $this->zonas->removeElement($zonas);
+    }
+
+    /**
+     * Get zonas
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getZonas()
+    {
+        return $this->zonas;
     }
 }
