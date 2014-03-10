@@ -374,8 +374,10 @@ class Solicitud
         $props = get_object_vars($this);
 
         foreach( $props as $property => $value ) {
-            if( isset($input[ $property ]) ) { // index exists
-                $this->{$property} = $input[$property] ;
+            if($property != 'zona'){
+                if(isset($input[$property])){ // index exists
+                    $this->{$property} = $input[$property] ;
+                }
             }
         }
 
@@ -392,12 +394,12 @@ class Solicitud
     /**
      * Add zonas
      *
-     * @param \IAR\CommonsBundle\Entity\Zona $zonas
+     * @param \IAR\CommonsBundle\Entity\Zona $zona
      * @return Solicitud
      */
-    public function addZona(\IAR\CommonsBundle\Entity\Zona $zonas)
+    public function addZona(\IAR\CommonsBundle\Entity\Zona $zona)
     {
-        $this->zonas[] = $zonas;
+        $this->zonas[] = $zona;
     
         return $this;
     }
@@ -405,11 +407,11 @@ class Solicitud
     /**
      * Remove zonas
      *
-     * @param \IAR\CommonsBundle\Entity\Zona $zonas
+     * @param \IAR\CommonsBundle\Entity\Zona $zona
      */
-    public function removeZona(\IAR\CommonsBundle\Entity\Zona $zonas)
+    public function removeZona(\IAR\CommonsBundle\Entity\Zona $zona)
     {
-        $this->zonas->removeElement($zonas);
+        $this->zonas->removeElement($zona);
     }
 
     /**

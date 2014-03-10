@@ -40,14 +40,14 @@ define("View/Solicitud",[
                     }
                 });
 
-                selectCarBrandUI.click(function(){
+                selectCarBrandUI.change(function(){
                     var brand = $(this).val();
                     if( brand != 0 ) { 
                         self._controller.brandSelectedAction( brand );
                     }
                 });
 
-                selectCarModelUI.click(function(){
+                selectCarModelUI.change(function(){
                     var model = $(this).val() ;
                     if( model != 0 ) {
                         self._controller.modelSelectedAction( model );
@@ -55,7 +55,7 @@ define("View/Solicitud",[
                 });
 
                 textareaDetailsUI.change(function(){ self._solicitud.set('details',$(this).val()); });
-                selectZoneUI.change(function(){ 
+                selectZoneUI.click(function(){
                     var elems = $(this).children(":selected"); // selected zones
 
                     self._solicitud.emptyZonas();
@@ -66,7 +66,7 @@ define("View/Solicitud",[
                         });
                     }
 
-                    console.log(self._solicitud.get('zona');
+                    console.log( self._solicitud.get('zona') );
                 });
                 inputNombreUI.change(function(){ self._solicitud.set('nombre',$(this).val()); });
                 inputApellidoUI.change(function(){ self._solicitud.set('apellido',$(this).val()); });

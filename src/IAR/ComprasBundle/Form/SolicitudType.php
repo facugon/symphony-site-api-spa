@@ -20,6 +20,9 @@ class SolicitudType extends AbstractType
             ->add('apellido')
             ->add('email')
             ->add('telefono')
+            ->add('brand')
+            ->add('model')
+            ->add('zonas')
         ;
     }
     

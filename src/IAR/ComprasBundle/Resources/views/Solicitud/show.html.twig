@@ -22,8 +22,10 @@
                 <td>{{ entity.model }}</td>
             </tr>
             <tr>
-                <th>Zona</th>
-                <td>{{ entity.zona }}</td>
+                <th>Zonas</th>
+                <td>
+                    {{ entity.zonas|join('|') }}
+                </td>
             </tr>
             <tr>
                 <th>Nombre</th>

@@ -67,7 +67,10 @@ class SolicitudController extends FOSRestController
         $em = $this->getDoctrine()->getManager();
         $input['brand'] = $em->getRepository('IARComprasBundle:Brand')->find( $input['brand'] );
         $input['model'] = $em->getRepository('IARComprasBundle:Model')->find( $input['model'] );
-        $input['zona']  = $em->getRepository('IARComprasBundle:Zona')->find( $input['zona'] );
+
+        foreach( $input['zona'] as $id ) {
+            $solicitud->addZona( $em->getRepository('IARCommonsBundle:Zona')->find( $id ) );
+        }
 
         $solicitud->set($input);
         $solicitud->setDate( new \DateTime('NOW') );

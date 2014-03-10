@@ -36,7 +36,7 @@ define("Entity/Solicitud",['underscore','iar/Entity'],function( _, Entity ) {
 
             return attr ;
         },
-        addZonas : function(zona) {
+        addZona : function(zona) {
             this._attributes.zona.push( zona );
         },
         emptyZonas : function() {
