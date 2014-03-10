@@ -21,6 +21,13 @@ Clear the cache:
 
     php app/console cache:clear
 
+
+Manual Database Installation. Login to server database and create the db and the db user:
+
+    CREATE DATABASE 'dbname';
+    CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+    GRANT ALL PRIVILEGES ON dbname.* TO 'username'@'localhost';
+
 Then install the database:
 
     php app/console doctrine:database:create
@@ -34,6 +41,8 @@ And install the public files in the web directory:
 Run the app:
 
     php app/console server:run 0.0.0.0:8000
+    
+
 
 Running tests
 -------------
