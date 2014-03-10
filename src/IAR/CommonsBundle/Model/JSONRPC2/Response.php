@@ -18,7 +18,9 @@ class Response
 
     public function isErrorResponse()
     {
-        return strval( $this->statusCode )[0] == '4' ; // HTTP Error Status 4XX . Client Error Codes
+        $code = strval( $this->statusCode ) ; // HTTP Error Status 4XX . Client Error Codes
+
+        return $code[0] == '4' ;
     }
 
     public function getContent()
