@@ -1,7 +1,7 @@
-iar_commons_api:
-    resource: "@IARCommonsAPIBundle/Controller/"
-    type:     annotation
-    prefix:   /
+#iar_commons_api:
+#    resource: "@IARCommonsAPIBundle/Controller/"
+#    type:     annotation
+#    prefix:   /
 
 iar_compras_api:
     resource: "@IARComprasAPIBundle/Controller/"
